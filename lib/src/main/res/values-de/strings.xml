@@ -79,8 +79,8 @@
     <string name="people_picker__search_result_conversations_header_title">Gruppen</string>
     <string name="people_picker__search_result_team_conversations_header_title">%1$s Gruppen</string>
     <string name="people_picker__search_result_connections_searched_header_title">Kontakte</string>
-    <string name="people_picker__search_result_others_header_title">Connect with Wire</string>
-    <string name="people_picker__search_result_others_header_federated">Connect with %1$s</string>
+    <string name="people_picker__search_result_others_header_title">Mit Wire verbinden</string>
+    <string name="people_picker__search_result_others_header_federated">Mit %1$s verbinden</string>
     <string name="people_picker__search_result__expander_title">Zeige alle %1$s ↓</string>
     <string name="people_picker__search_people">PERSONEN</string>
     <string name="people_picker__search_services">DIENSTE</string>
@@ -261,6 +261,9 @@
     <string name="incoming__controls__ongoing__flip">WECHSELN</string>
     <string name="ongoing__poor_connection_message">VIDEO WEGEN SCHLECHTER VERBINDUNG GESTOPPT</string>
     <string name="calling__self_preview_unavailable_long">KAMERA NICHT VERFÜGBAR</string>
+    <string name="incoming__controls__ongoing__microphone">MIKROFON</string>
+    <string name="incoming__controls__ongoing__camera">KAMERA</string>
+    <string name="incoming__controls__ongoing__flip_camera">KAMERA WECHSELN</string>
     <string name="calling__header__joining">Verbinden&#8230;</string>
     <string name="calling__header__outgoing_subtitle">Klingeln&#8230;</string>
     <string name="calling__header__outgoing_video_subtitle">Klingeln&#8230;</string>
@@ -662,6 +665,9 @@ Gilt nicht für Gruppen.</string>
     <string name="sharing__user_not_logged_in__dialog__title">Bitte einloggen</string>
     <string name="sharing__user_not_logged_in__dialog__message">Öffnen Sie Wire und loggen Sie sich zur Freigabe ein.</string>
     <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
+    <string name="sharing__file_sharing_prohibited__dialog__title">Einschränkungen beim Teilen von Dateien</string>
+    <string name="sharing__file_sharing_prohibited__dialog__message">You can not share this file because this feature is disabled.</string>
+    <string name="sharing__file_sharing_prohibited__dialog__confirm">Verstanden</string>
     <!-- Sync errors -->
     <string name="in_app_notification__sync_error__create_group_convo__title">Konnte nicht erstellt werden</string>
     <string name="in_app_notification__sync_error__create_group_convo__body">Unterhaltung mit %1$s konnte nicht erstellt werden</string>
@@ -806,7 +812,6 @@ Gilt nicht für Gruppen.</string>
     <string name="audio_message_error__missing_audio_permissions">Um Audionachrichten zu senden, erteilen Sie die Berechtigung zur Aufnahme von Audio.</string>
     <!-- Audio bit rate mode -->
     <string name="audio_message_constant_bit_rate">KONSTANTE BITRATE</string>
-    <string name="audio_message_variable_bit_rate">VARIABLE BITRATE</string>
     <!-- no contacts -->
     <string name="no_conversation_in_list__header">Noch keine Unterhaltungen</string>
     <string name="all_archived__header">Alle Unterhaltungen archiviert</string>
@@ -1082,8 +1087,8 @@ Gilt nicht für Gruppen.</string>
     <string name="loading_services">Dienste werden geladen&#8230;</string>
     <string name="empty_services_list">Dienste sind Helfer, die den Workflow verbessern können. Bitte an den Administrator wenden, um diese zu aktivieren.</string>
     <string name="empty_services_list_admin">Dienste sind Helfer, die den Workflow verbessern können.</string>
-    <string name="empty_services_content_description">No services found</string>
-    <string name="empty_search_content_description">No users found</string>
+    <string name="empty_services_content_description">Keine Dienste gefunden</string>
+    <string name="empty_search_content_description">Keine Nutzer gefunden</string>
     <string name="create_group_conversation">Gruppe erstellen</string>
     <string name="create_guest_room_conversation">Gästebereich erstellen</string>
     <string name="manage_services">Dienste verwalten</string>
@@ -1391,4 +1396,12 @@ Gilt nicht für Gruppen.</string>
     <string name="join_conversation_conversation_join_error_title">Sie konnten der Unterhaltung nicht beitreten</string>
     <string name="join_conversation_invalid_link_error_message">Der Link zu dieser Unterhaltung ist ungültig.</string>
     <string name="join_conversation_member_limit_reached_error_message">Die Unterhaltung ist voll.</string>
+    <!-- File sharing feature config -->
+    <string name="file_sharing_restriction_info_dialog_title">Es gab eine Änderung bei Wire</string>
+    <string name="file_sharing_restriction_info_dialog_message">Das Teilen und Empfangen von Dateien jeder Art ist jetzt deaktiviert</string>
+    <string name="file_sharing_restriction_info_image">EMPFANG VON BILDERN EINGESCHRÄNKT</string>
+    <string name="file_sharing_restriction_info_video">EMPFANG VON VIDEOS EINGESCHRÄNKT</string>
+    <string name="file_sharing_restriction_info_audio">EMPFANG VON AUDIODATEIEN EINGESCHRÄNKT</string>
+    <string name="file_sharing_restriction_info_file">EMPFANG VON DATEIEN EINGESCHRÄNKT</string>
+    <string name="file_sharing_restriction_info_generic">DATEIFREIGABE EINGESCHRÄNKT</string>
 </resources>

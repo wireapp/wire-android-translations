@@ -261,6 +261,9 @@
     <string name="incoming__controls__ongoing__flip">MUDAR</string>
     <string name="ongoing__poor_connection_message">O VÍDEO PAROU DEVIDO À CONEXÃO LENTA</string>
     <string name="calling__self_preview_unavailable_long">CÂMERA NÃO DISPONÍVEL</string>
+    <string name="incoming__controls__ongoing__microphone">Microfone</string>
+    <string name="incoming__controls__ongoing__camera">CÂMERA</string>
+    <string name="incoming__controls__ongoing__flip_camera">FLIP CÂMERA</string>
     <string name="calling__header__joining">Conectando&#8230;</string>
     <string name="calling__header__outgoing_subtitle">Tocando&#8230;</string>
     <string name="calling__header__outgoing_video_subtitle">Tocando&#8230;</string>
@@ -661,6 +664,9 @@
     <string name="sharing__user_not_logged_in__dialog__title">Por favor, entre</string>
     <string name="sharing__user_not_logged_in__dialog__message">Abra o Wire e faça o login para compartilhar.</string>
     <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
+    <string name="sharing__file_sharing_prohibited__dialog__title">Restrições de compartilhamento de arquivos</string>
+    <string name="sharing__file_sharing_prohibited__dialog__message">You can not share this file because this feature is disabled.</string>
+    <string name="sharing__file_sharing_prohibited__dialog__confirm">OK</string>
     <!-- Sync errors -->
     <string name="in_app_notification__sync_error__create_group_convo__title">Não é possível criar</string>
     <string name="in_app_notification__sync_error__create_group_convo__body">Não é possível criar conversa com %1$s</string>
@@ -805,7 +811,6 @@
     <string name="audio_message_error__missing_audio_permissions">Para enviar mensagens de áudio, conceda permissão para gravar áudio.</string>
     <!-- Audio bit rate mode -->
     <string name="audio_message_constant_bit_rate">TAXA DE BIT CONSTANTE</string>
-    <string name="audio_message_variable_bit_rate">TAXA DE BIT VARIÁVEL</string>
     <!-- no contacts -->
     <string name="no_conversation_in_list__header">Não há conversas ainda</string>
     <string name="all_archived__header">Tudo foi arquivado</string>
@@ -1388,4 +1393,12 @@
     <string name="join_conversation_conversation_join_error_title">Você não pôde entrar na conversa</string>
     <string name="join_conversation_invalid_link_error_message">O link da conversa é inválido.</string>
     <string name="join_conversation_member_limit_reached_error_message">A conversa está cheia.</string>
+    <!-- File sharing feature config -->
+    <string name="file_sharing_restriction_info_dialog_title">Houve uma mudança no Wire</string>
+    <string name="file_sharing_restriction_info_dialog_message">Compartilhar e receber arquivos de qualquer tipo agora está desativado.</string>
+    <string name="file_sharing_restriction_info_image">RECEIVING IMAGES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_video">RECEIVING VIDEOS RESTRICTED</string>
+    <string name="file_sharing_restriction_info_audio">RECEIVING AUDIO FILES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_file">RECEIVING FILES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_generic">FILE SHARING RESTRICTED</string>
 </resources>

@@ -261,6 +261,9 @@
     <string name="incoming__controls__ongoing__flip">MUDAR</string>
     <string name="ongoing__poor_connection_message">O VÍDEO PAROU DEVIDO A MÁ LIGAÇÃO</string>
     <string name="calling__self_preview_unavailable_long">CÂMERA NÃO ESTÁ DISPONÍVEL</string>
+    <string name="incoming__controls__ongoing__microphone">MICROPHONE</string>
+    <string name="incoming__controls__ongoing__camera">CÂMERA</string>
+    <string name="incoming__controls__ongoing__flip_camera">FLIP CAMERA</string>
     <string name="calling__header__joining">A ligar&#8230;</string>
     <string name="calling__header__outgoing_subtitle">A tocar&#8230;</string>
     <string name="calling__header__outgoing_video_subtitle">A tocar&#8230;</string>
@@ -661,6 +664,9 @@
     <string name="sharing__user_not_logged_in__dialog__title">Por favor inicie a sessão</string>
     <string name="sharing__user_not_logged_in__dialog__message">Abra o Wire e inicie sessão para partilhar.</string>
     <string name="sharing__user_not_logged_in__dialog__confirm">Ok</string>
+    <string name="sharing__file_sharing_prohibited__dialog__title">File sharing restrictions</string>
+    <string name="sharing__file_sharing_prohibited__dialog__message">You can not share this file because this feature is disabled.</string>
+    <string name="sharing__file_sharing_prohibited__dialog__confirm">Ok</string>
     <!-- Sync errors -->
     <string name="in_app_notification__sync_error__create_group_convo__title">Não é possível criar</string>
     <string name="in_app_notification__sync_error__create_group_convo__body">Não foi possível criar a conversa com %1$s</string>
@@ -805,7 +811,6 @@
     <string name="audio_message_error__missing_audio_permissions">Para enviar mensagens de áudio, conceda permissão para gravar áudio.</string>
     <!-- Audio bit rate mode -->
     <string name="audio_message_constant_bit_rate">TAXA DE BITS CONSTANTE</string>
-    <string name="audio_message_variable_bit_rate">VARIABLE BIT RATE</string>
     <!-- no contacts -->
     <string name="no_conversation_in_list__header">Ainda não existem conversas</string>
     <string name="all_archived__header">Foi tudo arquivado</string>
@@ -1036,9 +1041,9 @@
     <string name="teams_set_name_title">O seu nome</string>
     <string name="teams_set_name_hint">NOME COMPLETO</string>
     <string name="app_entry_create_account">Pessoal</string>
-    <string name="app_entry_create_account_sub">Chat privately with groups of friends and family</string>
+    <string name="app_entry_create_account_sub">Converse em particular com grupos de amigos e familiares</string>
     <string name="app_entry_create_team">Pro</string>
-    <string name="app_entry_create_team_sub">Secure collaboration for businesses, institutions and professional organizations</string>
+    <string name="app_entry_create_team_sub">Colaboração segura para empresas, instituições e organizações profissionais</string>
     <string name="app_entry_login_sub">Já tem uma conta?</string>
     <string name="app_entry_login">Iniciar sessão</string>
     <string name="app_entry_tc_dialog_title">Condições de uso</string>
@@ -1200,7 +1205,7 @@
     <string name="max_participants_alert_title">Casa cheia</string>
     <string name="max_participants_create_alert_message">Up to %1$s people can join a conversation.</string>
     <string name="max_participants_add_alert_message">Up to %1$s people can join a conversation. Currently there is only room for %2$s more.</string>
-    <string name="sso_signin_button">Inicio de sessão empresarial</string>
+    <string name="sso_signin_button">Iniciar de sessão empresarial</string>
     <string name="sso_signin_error_title">Algo correu mal</string>
     <string name="sso_signin_error_message">Por favor contacte o administrador da sua equipa para mais detalhes (Erro %1$s).</string>
     <string name="sso_signin_error_try_again_message">Por favor, tente novamente mais tarde (Erro %1$s).</string>
@@ -1294,12 +1299,12 @@
     <string name="edit_phone_dialog_country_code_error">Código de país inválido</string>
     <string name="edit_phone_dialog_phone_number_error">Número de telefone inválido</string>
     <!-- SSO Login -->
-    <string name="sso_login_dialog_title">Enterprise Login</string>
+    <string name="sso_login_dialog_title">Login da Empresa</string>
     <string name="sso_login_dialog_message">Please enter your SSO code:</string>
     <string name="email_sso_login_dialog_message">Please enter your email or SSO code. If your email matches an enterprise installation of Wire, this app will connect to that server.</string>
     <!-- Welcome -->
     <string name="welcome_to_wire">Welcome to Wire</string>
-    <string name="welcome_enterprise_log_in">Enterprise Login</string>
+    <string name="welcome_enterprise_log_in">Login da Empresa</string>
     <string name="welcome_custom_backend_log_in_email">LOG IN WITH EMAIL</string>
     <string name="welcome_custom_backend_log_in_sso">LOG IN WITH SSO</string>
     <!-- Updated edit handle screen -->
@@ -1388,4 +1393,12 @@
     <string name="join_conversation_conversation_join_error_title">You could not join the conversation</string>
     <string name="join_conversation_invalid_link_error_message">The conversation link is invalid.</string>
     <string name="join_conversation_member_limit_reached_error_message">The conversation is full.</string>
+    <!-- File sharing feature config -->
+    <string name="file_sharing_restriction_info_dialog_title">There has been a change in Wire</string>
+    <string name="file_sharing_restriction_info_dialog_message">Sharing and receiving files of any type is now disabled.</string>
+    <string name="file_sharing_restriction_info_image">RECEIVING IMAGES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_video">RECEIVING VIDEOS RESTRICTED</string>
+    <string name="file_sharing_restriction_info_audio">RECEIVING AUDIO FILES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_file">RECEIVING FILES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_generic">FILE SHARING RESTRICTED</string>
 </resources>

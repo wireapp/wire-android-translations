@@ -79,8 +79,8 @@
     <string name="people_picker__search_result_conversations_header_title">Групи</string>
     <string name="people_picker__search_result_team_conversations_header_title">Групи %1$s</string>
     <string name="people_picker__search_result_connections_searched_header_title">Контакти</string>
-    <string name="people_picker__search_result_others_header_title">Connect with Wire</string>
-    <string name="people_picker__search_result_others_header_federated">Connect with %1$s</string>
+    <string name="people_picker__search_result_others_header_title">З’єднатися через Wire</string>
+    <string name="people_picker__search_result_others_header_federated">З\'єднано з %1$s</string>
     <string name="people_picker__search_result__expander_title">Показати всі %1$s ↓</string>
     <string name="people_picker__search_people">УЧАСНИКИ</string>
     <string name="people_picker__search_services">СЕРВІСИ</string>
@@ -271,6 +271,9 @@
     <string name="incoming__controls__ongoing__flip">ПЕРЕКЛ. КАМЕРУ</string>
     <string name="ongoing__poor_connection_message">ВІДЕО ЗУПИНЕНО ЧЕРЕЗ ПОГАНИЙ ЗВ\'ЯЗОК</string>
     <string name="calling__self_preview_unavailable_long">КАМЕРА НЕДОСТУПНА</string>
+    <string name="incoming__controls__ongoing__microphone">МІКРОФОН</string>
+    <string name="incoming__controls__ongoing__camera">КАМЕРА</string>
+    <string name="incoming__controls__ongoing__flip_camera">ОБРАТИ ІНШУ КАМЕРУ</string>
     <string name="calling__header__joining">З\'єднання&#8230;</string>
     <string name="calling__header__outgoing_subtitle">Дзвінок&#8230;</string>
     <string name="calling__header__outgoing_video_subtitle">Дзвінок&#8230;</string>
@@ -687,6 +690,9 @@
     <string name="sharing__user_not_logged_in__dialog__title">Будь ласка, авторизуйтесь</string>
     <string name="sharing__user_not_logged_in__dialog__message">Відкрийте Wire та авторизуйтесь, щоб поділитись.</string>
     <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
+    <string name="sharing__file_sharing_prohibited__dialog__title">Обмеження на обмін файлами</string>
+    <string name="sharing__file_sharing_prohibited__dialog__message">You can not share this file because this feature is disabled.</string>
+    <string name="sharing__file_sharing_prohibited__dialog__confirm">OK</string>
     <!-- Sync errors -->
     <string name="in_app_notification__sync_error__create_group_convo__title">Не вдалося створити</string>
     <string name="in_app_notification__sync_error__create_group_convo__body">Не вдалося почати розмову з %1$s</string>
@@ -835,7 +841,6 @@
     <string name="audio_message_error__missing_audio_permissions">Дозвольте доступ до записування звуку, щоб надсилати аудіоповідомлення.</string>
     <!-- Audio bit rate mode -->
     <string name="audio_message_constant_bit_rate">СТАЛИЙ БІТРЕЙТ</string>
-    <string name="audio_message_variable_bit_rate">ЗМІННИЙ БІТРЕЙТ</string>
     <!-- no contacts -->
     <string name="no_conversation_in_list__header">Поки що розмови відсутні</string>
     <string name="all_archived__header">Усі розмови заархівовано</string>
@@ -1137,8 +1142,8 @@
     <string name="loading_services">Завантаження сервісів&#8230;</string>
     <string name="empty_services_list">Сервіси та помічники, які можуть поліпшити ваш робочий процес. Щоб увімкнути їх, зверніться до адміністратора вашої команди.</string>
     <string name="empty_services_list_admin">Сервіси та помічники, які можуть поліпшити ваш робочий процес.</string>
-    <string name="empty_services_content_description">No services found</string>
-    <string name="empty_search_content_description">No users found</string>
+    <string name="empty_services_content_description">Сервісів не знайдено</string>
+    <string name="empty_search_content_description">Користувачів не знайдено</string>
     <string name="create_group_conversation">Створити групу</string>
     <string name="create_guest_room_conversation">Створити гостьову кімнату</string>
     <string name="manage_services">Керування сервісами</string>
@@ -1277,7 +1282,7 @@
     <string name="add_services_button_text">Керування сервісами</string>
     <string name="empty_search_button_text">Дізнатися більше</string>
     <string name="empty_search_same_domain_text">Знайти людей в Wire по імені або @ніку</string>
-    <string name="empty_search_other_domains_text">Find people from another domain by @username@domainname</string>
+    <string name="empty_search_other_domains_text">Знайдіть людей з іншого домену, використовуючи запис @нік@домен</string>
     <string name="wire_notification_name">Нотифікації Wire</string>
     <string name="wire_ping_name">Wire пінг</string>
     <string name="reply_self_name">Ви</string>
@@ -1446,4 +1451,12 @@
     <string name="join_conversation_conversation_join_error_title">Не вдалося приєднатися до розмови</string>
     <string name="join_conversation_invalid_link_error_message">Посилання на розмову недійсне.</string>
     <string name="join_conversation_member_limit_reached_error_message">Розмова переповнена.</string>
+    <!-- File sharing feature config -->
+    <string name="file_sharing_restriction_info_dialog_title">There has been a change in Wire</string>
+    <string name="file_sharing_restriction_info_dialog_message">Sharing and receiving files of any type is now disabled.</string>
+    <string name="file_sharing_restriction_info_image">RECEIVING IMAGES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_video">RECEIVING VIDEOS RESTRICTED</string>
+    <string name="file_sharing_restriction_info_audio">RECEIVING AUDIO FILES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_file">RECEIVING FILES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_generic">FILE SHARING RESTRICTED</string>
 </resources>

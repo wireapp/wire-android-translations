@@ -79,7 +79,7 @@
     <string name="people_picker__search_result_conversations_header_title">群組</string>
     <string name="people_picker__search_result_team_conversations_header_title">%1$s群組</string>
     <string name="people_picker__search_result_connections_searched_header_title">連絡人</string>
-    <string name="people_picker__search_result_others_header_title">Connect with Wire</string>
+    <string name="people_picker__search_result_others_header_title">連結到Wire</string>
     <string name="people_picker__search_result_others_header_federated">Connect with %1$s</string>
     <string name="people_picker__search_result__expander_title">顯示所有%1$s ↓</string>
     <string name="people_picker__search_people">聯絡人</string>
@@ -256,6 +256,9 @@
     <string name="incoming__controls__ongoing__flip">切換鏡頭</string>
     <string name="ongoing__poor_connection_message">連線品質不佳，視訊停止</string>
     <string name="calling__self_preview_unavailable_long">相機無法使用</string>
+    <string name="incoming__controls__ongoing__microphone">MICROPHONE</string>
+    <string name="incoming__controls__ongoing__camera">相機</string>
+    <string name="incoming__controls__ongoing__flip_camera">FLIP CAMERA</string>
     <string name="calling__header__joining">連接中&#8230;</string>
     <string name="calling__header__outgoing_subtitle">響鈴中...</string>
     <string name="calling__header__outgoing_video_subtitle">響鈴中...</string>
@@ -284,10 +287,10 @@
     <string name="group_calling_message" tools:ignore="PluralsCandidate">這將會呼叫%1$s位聯絡人</string>
     <string name="group_calling_confirm">通話</string>
     <string name="calling_self">%s (You)</string>
-    <string name="calling_no_active_video_speakers">No active video speakers...</string>
+    <string name="calling_no_active_video_speakers">沒有人在視像通話中發言...</string>
     <string name="calling_no_active_speakers">No active speakers...</string>
     <string name="calling_toggle_all">全部</string>
-    <string name="calling_toggle_speakers">擴音</string>
+    <string name="calling_toggle_speakers">發言者</string>
     <string name="calling_double_tap_enter_fullscreen_message">Double tap on a tile for fullscreen</string>
     <string name="calling_double_tap_exit_fullscreen_message">Double tap to go back, pinch to zoom</string>
     <string name="calling_pinch_to_zoom_message">Pinch to zoom</string>
@@ -408,7 +411,7 @@
     <string name="pref_advanced_receive_news_and_offers_summary">接收Wire的新聞和產品更新電子郵件。</string>
     <!-- App Lock -->
     <string name="pref_options_app_lock">密碼</string>
-    <string name="pref_options_app_lock_change">Change passcode</string>
+    <string name="pref_options_app_lock_change">更改密碼</string>
     <string name="app_lock_locked_title">Wire is locked due to inactivity</string>
     <string name="app_lock_locked_message">Please enter your account passcode.</string>
     <string name="app_lock_setup_dialog_messsage">To unlock Wire, set up a passcode in your device settings.</string>
@@ -648,6 +651,9 @@
     <string name="sharing__user_not_logged_in__dialog__title">請登入</string>
     <string name="sharing__user_not_logged_in__dialog__message">登入Wire，開始分享。</string>
     <string name="sharing__user_not_logged_in__dialog__confirm">確認</string>
+    <string name="sharing__file_sharing_prohibited__dialog__title">File sharing restrictions</string>
+    <string name="sharing__file_sharing_prohibited__dialog__message">You can not share this file because this feature is disabled.</string>
+    <string name="sharing__file_sharing_prohibited__dialog__confirm">確認</string>
     <!-- Sync errors -->
     <string name="in_app_notification__sync_error__create_group_convo__title">無法建立</string>
     <string name="in_app_notification__sync_error__create_group_convo__body">無法和%1$s建立聊天室</string>
@@ -790,7 +796,6 @@
     <string name="audio_message_error__missing_audio_permissions">若您要傳送語音訊息，請先同意錄製語音的存取權限。</string>
     <!-- Audio bit rate mode -->
     <string name="audio_message_constant_bit_rate">固定位元速率</string>
-    <string name="audio_message_variable_bit_rate">VARIABLE BIT RATE</string>
     <!-- no contacts -->
     <string name="no_conversation_in_list__header">尚無對話</string>
     <string name="all_archived__header">全部都存檔了</string>
@@ -1189,7 +1194,7 @@
     <string name="generic_service_warning">服務可以存取這個對話內容</string>
     <string name="add_services_button_text">管理服務</string>
     <string name="empty_search_button_text">瞭解詳情</string>
-    <string name="empty_search_same_domain_text">Find people in Wire by name or @username</string>
+    <string name="empty_search_same_domain_text">依照使用者名稱或@別名在Wire尋找</string>
     <string name="empty_search_other_domains_text">Find people from another domain by @username@domainname</string>
     <string name="wire_notification_name">Wire通知</string>
     <string name="wire_ping_name">Wire 招呼</string>
@@ -1357,6 +1362,14 @@
     <string name="join_conversation_confirmation_join_button_text">加入</string>
     <string name="join_conversation_confirmation_cancel_button_text">取消</string>
     <string name="join_conversation_conversation_join_error_title">You could not join the conversation</string>
-    <string name="join_conversation_invalid_link_error_message">The conversation link is invalid.</string>
-    <string name="join_conversation_member_limit_reached_error_message">The conversation is full.</string>
+    <string name="join_conversation_invalid_link_error_message">對話連結無效。</string>
+    <string name="join_conversation_member_limit_reached_error_message">對話人數已達上限。</string>
+    <!-- File sharing feature config -->
+    <string name="file_sharing_restriction_info_dialog_title">There has been a change in Wire</string>
+    <string name="file_sharing_restriction_info_dialog_message">Sharing and receiving files of any type is now disabled.</string>
+    <string name="file_sharing_restriction_info_image">RECEIVING IMAGES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_video">RECEIVING VIDEOS RESTRICTED</string>
+    <string name="file_sharing_restriction_info_audio">RECEIVING AUDIO FILES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_file">RECEIVING FILES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_generic">FILE SHARING RESTRICTED</string>
 </resources>

@@ -261,6 +261,9 @@
     <string name="incoming__controls__ongoing__flip">FLIP</string>
     <string name="ongoing__poor_connection_message">ویدیو به دلیل سرعت کم اینترنت قطع شد</string>
     <string name="calling__self_preview_unavailable_long">دوربین در دسترس نیست</string>
+    <string name="incoming__controls__ongoing__microphone">MICROPHONE</string>
+    <string name="incoming__controls__ongoing__camera">دوربین</string>
+    <string name="incoming__controls__ongoing__flip_camera">FLIP CAMERA</string>
     <string name="calling__header__joining">در حال اتصال&#8230;</string>
     <string name="calling__header__outgoing_subtitle">در‌حال تماس&#8230;</string>
     <string name="calling__header__outgoing_video_subtitle">در‌حال تماس&#8230;</string>
@@ -661,6 +664,9 @@
     <string name="sharing__user_not_logged_in__dialog__title">لطفا ابتدا وارد شوید</string>
     <string name="sharing__user_not_logged_in__dialog__message">Wire را باز کنید، وارد شوید و با دیگران به‌اشتراک بگذارید.</string>
     <string name="sharing__user_not_logged_in__dialog__confirm">تایید</string>
+    <string name="sharing__file_sharing_prohibited__dialog__title">File sharing restrictions</string>
+    <string name="sharing__file_sharing_prohibited__dialog__message">You can not share this file because this feature is disabled.</string>
+    <string name="sharing__file_sharing_prohibited__dialog__confirm">تایید</string>
     <!-- Sync errors -->
     <string name="in_app_notification__sync_error__create_group_convo__title">خطا در ایجاد گروه</string>
     <string name="in_app_notification__sync_error__create_group_convo__body">امکان ایجاد گفتگو با %1$s فراهم نیست</string>
@@ -805,7 +811,6 @@
     <string name="audio_message_error__missing_audio_permissions">برای ارسال پیام صوتی، دسترسی به میکروفن الزامی است.</string>
     <!-- Audio bit rate mode -->
     <string name="audio_message_constant_bit_rate">نرخ بیت ثابت</string>
-    <string name="audio_message_variable_bit_rate">VARIABLE BIT RATE</string>
     <!-- no contacts -->
     <string name="no_conversation_in_list__header">هیچ گفتگویی وجود ندارد</string>
     <string name="all_archived__header">همه چیز بایگانی شده</string>
@@ -1388,4 +1393,12 @@
     <string name="join_conversation_conversation_join_error_title">You could not join the conversation</string>
     <string name="join_conversation_invalid_link_error_message">The conversation link is invalid.</string>
     <string name="join_conversation_member_limit_reached_error_message">The conversation is full.</string>
+    <!-- File sharing feature config -->
+    <string name="file_sharing_restriction_info_dialog_title">There has been a change in Wire</string>
+    <string name="file_sharing_restriction_info_dialog_message">Sharing and receiving files of any type is now disabled.</string>
+    <string name="file_sharing_restriction_info_image">RECEIVING IMAGES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_video">RECEIVING VIDEOS RESTRICTED</string>
+    <string name="file_sharing_restriction_info_audio">RECEIVING AUDIO FILES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_file">RECEIVING FILES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_generic">FILE SHARING RESTRICTED</string>
 </resources>

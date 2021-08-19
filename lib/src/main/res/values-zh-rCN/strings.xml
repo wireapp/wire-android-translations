@@ -256,6 +256,9 @@
     <string name="incoming__controls__ongoing__flip">FLIP</string>
     <string name="ongoing__poor_connection_message">网络连接差，视频停止</string>
     <string name="calling__self_preview_unavailable_long">相机无法使用</string>
+    <string name="incoming__controls__ongoing__microphone">MICROPHONE</string>
+    <string name="incoming__controls__ongoing__camera">相机</string>
+    <string name="incoming__controls__ongoing__flip_camera">FLIP CAMERA</string>
     <string name="calling__header__joining">正在连接...</string>
     <string name="calling__header__outgoing_subtitle">响铃中...</string>
     <string name="calling__header__outgoing_video_subtitle">响铃中...</string>
@@ -286,8 +289,8 @@
     <string name="calling_self">%s (You)</string>
     <string name="calling_no_active_video_speakers">No active video speakers...</string>
     <string name="calling_no_active_speakers">No active speakers...</string>
-    <string name="calling_toggle_all">ALL</string>
-    <string name="calling_toggle_speakers">SPEAKERS</string>
+    <string name="calling_toggle_all">所有人</string>
+    <string name="calling_toggle_speakers">发言者</string>
     <string name="calling_double_tap_enter_fullscreen_message">Double tap on a tile for fullscreen</string>
     <string name="calling_double_tap_exit_fullscreen_message">Double tap to go back, pinch to zoom</string>
     <string name="calling_pinch_to_zoom_message">Pinch to zoom</string>
@@ -648,6 +651,9 @@
     <string name="sharing__user_not_logged_in__dialog__title">请登录</string>
     <string name="sharing__user_not_logged_in__dialog__message">登录Wire，开始分享。</string>
     <string name="sharing__user_not_logged_in__dialog__confirm">好</string>
+    <string name="sharing__file_sharing_prohibited__dialog__title">File sharing restrictions</string>
+    <string name="sharing__file_sharing_prohibited__dialog__message">You can not share this file because this feature is disabled.</string>
+    <string name="sharing__file_sharing_prohibited__dialog__confirm">好</string>
     <!-- Sync errors -->
     <string name="in_app_notification__sync_error__create_group_convo__title">无法创建</string>
     <string name="in_app_notification__sync_error__create_group_convo__body">无法和%1$s建立聊天室</string>
@@ -790,7 +796,6 @@
     <string name="audio_message_error__missing_audio_permissions">若您要发送语音信息，请先同意录制语音的存储权限。</string>
     <!-- Audio bit rate mode -->
     <string name="audio_message_constant_bit_rate">固定码率</string>
-    <string name="audio_message_variable_bit_rate">VARIABLE BIT RATE</string>
     <!-- no contacts -->
     <string name="no_conversation_in_list__header">暂无对话</string>
     <string name="all_archived__header">所以内容均已存档</string>
@@ -1189,7 +1194,7 @@
     <string name="generic_service_warning">服务有权访问此对话的内容</string>
     <string name="add_services_button_text">管理服务</string>
     <string name="empty_search_button_text">更多信息</string>
-    <string name="empty_search_same_domain_text">Find people in Wire by name or @username</string>
+    <string name="empty_search_same_domain_text">通过名字或 @username 在Wire查找用户</string>
     <string name="empty_search_other_domains_text">Find people from another domain by @username@domainname</string>
     <string name="wire_notification_name">Wire Notification</string>
     <string name="wire_ping_name">Wire 打招呼</string>
@@ -1358,5 +1363,13 @@
     <string name="join_conversation_confirmation_cancel_button_text">取消</string>
     <string name="join_conversation_conversation_join_error_title">You could not join the conversation</string>
     <string name="join_conversation_invalid_link_error_message">The conversation link is invalid.</string>
-    <string name="join_conversation_member_limit_reached_error_message">The conversation is full.</string>
+    <string name="join_conversation_member_limit_reached_error_message">对话已满。</string>
+    <!-- File sharing feature config -->
+    <string name="file_sharing_restriction_info_dialog_title">There has been a change in Wire</string>
+    <string name="file_sharing_restriction_info_dialog_message">Sharing and receiving files of any type is now disabled.</string>
+    <string name="file_sharing_restriction_info_image">RECEIVING IMAGES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_video">RECEIVING VIDEOS RESTRICTED</string>
+    <string name="file_sharing_restriction_info_audio">RECEIVING AUDIO FILES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_file">RECEIVING FILES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_generic">FILE SHARING RESTRICTED</string>
 </resources>

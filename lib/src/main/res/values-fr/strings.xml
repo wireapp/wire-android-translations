@@ -261,6 +261,9 @@
     <string name="incoming__controls__ongoing__flip">INVERSER</string>
     <string name="ongoing__poor_connection_message">VIDÉO ARRÊTÉE POUR CAUSE DE CONNEXION LENTE</string>
     <string name="calling__self_preview_unavailable_long">APPAREIL PHOTO INDISPONIBLE</string>
+    <string name="incoming__controls__ongoing__microphone">MICROPHONE</string>
+    <string name="incoming__controls__ongoing__camera">APPAREIL PHOTO</string>
+    <string name="incoming__controls__ongoing__flip_camera">FLIP CAMERA</string>
     <string name="calling__header__joining">Connexion&#8230;</string>
     <string name="calling__header__outgoing_subtitle">Sonnerie&#8230;</string>
     <string name="calling__header__outgoing_video_subtitle">Sonnerie&#8230;</string>
@@ -662,6 +665,9 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="sharing__user_not_logged_in__dialog__title">Veuillez vous connecter</string>
     <string name="sharing__user_not_logged_in__dialog__message">Ouvrez Wire et connectez-vous pour partager.</string>
     <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
+    <string name="sharing__file_sharing_prohibited__dialog__title">Restrictions de partage de fichiers</string>
+    <string name="sharing__file_sharing_prohibited__dialog__message">You can not share this file because this feature is disabled.</string>
+    <string name="sharing__file_sharing_prohibited__dialog__confirm">OK</string>
     <!-- Sync errors -->
     <string name="in_app_notification__sync_error__create_group_convo__title">Création impossible</string>
     <string name="in_app_notification__sync_error__create_group_convo__body">Impossible de créer une conversation avec %1$s</string>
@@ -806,7 +812,6 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="audio_message_error__missing_audio_permissions">Pour envoyer des messages vocaux, autorisez l\'accès au microphone.</string>
     <!-- Audio bit rate mode -->
     <string name="audio_message_constant_bit_rate">DEBIT CONSTANT</string>
-    <string name="audio_message_variable_bit_rate">DEBIT VARIABLE</string>
     <!-- no contacts -->
     <string name="no_conversation_in_list__header">Aucune conversation</string>
     <string name="all_archived__header">Tout a été archivé</string>
@@ -1386,7 +1391,15 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="join_conversation_confirmation_message">You have been invited to a conversation:\n%s</string>
     <string name="join_conversation_confirmation_join_button_text">Rejoindre</string>
     <string name="join_conversation_confirmation_cancel_button_text">Annuler</string>
-    <string name="join_conversation_conversation_join_error_title">You could not join the conversation</string>
-    <string name="join_conversation_invalid_link_error_message">The conversation link is invalid.</string>
-    <string name="join_conversation_member_limit_reached_error_message">The conversation is full.</string>
+    <string name="join_conversation_conversation_join_error_title">Vous n\'avez pas pu rejoindre la conversation</string>
+    <string name="join_conversation_invalid_link_error_message">Le lien de la conversation est invalide.</string>
+    <string name="join_conversation_member_limit_reached_error_message">La conversation est saturée</string>
+    <!-- File sharing feature config -->
+    <string name="file_sharing_restriction_info_dialog_title">Il y a eu un changement dans Wire</string>
+    <string name="file_sharing_restriction_info_dialog_message">Le partage et la réception de fichiers de n\'importe quel type est désactivé.</string>
+    <string name="file_sharing_restriction_info_image">RECEIVING IMAGES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_video">RECEIVING VIDEOS RESTRICTED</string>
+    <string name="file_sharing_restriction_info_audio">RECEIVING AUDIO FILES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_file">RECEIVING FILES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_generic">FILE SHARING RESTRICTED</string>
 </resources>

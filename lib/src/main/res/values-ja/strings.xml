@@ -256,6 +256,9 @@
     <string name="incoming__controls__ongoing__flip">カメラ切替</string>
     <string name="ongoing__poor_connection_message">接続不良のためビデオが停止しました</string>
     <string name="calling__self_preview_unavailable_long">カメラは利用できません</string>
+    <string name="incoming__controls__ongoing__microphone">MICROPHONE</string>
+    <string name="incoming__controls__ongoing__camera">カメラ</string>
+    <string name="incoming__controls__ongoing__flip_camera">FLIP CAMERA</string>
     <string name="calling__header__joining">接続中...</string>
     <string name="calling__header__outgoing_subtitle">呼び出し中...</string>
     <string name="calling__header__outgoing_video_subtitle">呼び出し中...</string>
@@ -650,6 +653,9 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="sharing__user_not_logged_in__dialog__title">ログインしてください</string>
     <string name="sharing__user_not_logged_in__dialog__message">Wire を開き、ログインして共有してください。</string>
     <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
+    <string name="sharing__file_sharing_prohibited__dialog__title">File sharing restrictions</string>
+    <string name="sharing__file_sharing_prohibited__dialog__message">You can not share this file because this feature is disabled.</string>
+    <string name="sharing__file_sharing_prohibited__dialog__confirm">OK</string>
     <!-- Sync errors -->
     <string name="in_app_notification__sync_error__create_group_convo__title">作成できません</string>
     <string name="in_app_notification__sync_error__create_group_convo__body">%1$s との会話を作成できませんでした。</string>
@@ -792,7 +798,6 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="audio_message_error__missing_audio_permissions">音声メッセージを送信するには、オーディオを録音するアクセス許可を付与してください。</string>
     <!-- Audio bit rate mode -->
     <string name="audio_message_constant_bit_rate">固定ビットレート</string>
-    <string name="audio_message_variable_bit_rate">可変ビットレート</string>
     <!-- no contacts -->
     <string name="no_conversation_in_list__header">まだ会話が存在しません。</string>
     <string name="all_archived__header">全てアーカイブ済み</string>
@@ -1361,4 +1366,12 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="join_conversation_conversation_join_error_title">You could not join the conversation</string>
     <string name="join_conversation_invalid_link_error_message">The conversation link is invalid.</string>
     <string name="join_conversation_member_limit_reached_error_message">The conversation is full.</string>
+    <!-- File sharing feature config -->
+    <string name="file_sharing_restriction_info_dialog_title">There has been a change in Wire</string>
+    <string name="file_sharing_restriction_info_dialog_message">Sharing and receiving files of any type is now disabled.</string>
+    <string name="file_sharing_restriction_info_image">RECEIVING IMAGES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_video">RECEIVING VIDEOS RESTRICTED</string>
+    <string name="file_sharing_restriction_info_audio">RECEIVING AUDIO FILES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_file">RECEIVING FILES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_generic">FILE SHARING RESTRICTED</string>
 </resources>

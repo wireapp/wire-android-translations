@@ -271,6 +271,9 @@
     <string name="incoming__controls__ongoing__flip">ПЕРЕКЛЮЧИТЬ</string>
     <string name="ongoing__poor_connection_message">ВИДЕО ОСТАНОВЛЕНО ИЗ-ЗА ПЛОХОГО СОЕДИНЕНИЯ</string>
     <string name="calling__self_preview_unavailable_long">КАМЕРА НЕДОСТУПНА</string>
+    <string name="incoming__controls__ongoing__microphone">МИКРОФОН</string>
+    <string name="incoming__controls__ongoing__camera">КАМЕРА</string>
+    <string name="incoming__controls__ongoing__flip_camera">ПЕРЕВОРОТ КАМЕРЫ</string>
     <string name="calling__header__joining">Подключение&#8230;</string>
     <string name="calling__header__outgoing_subtitle">Вызываем&#8230;</string>
     <string name="calling__header__outgoing_video_subtitle">Вызываем&#8230;</string>
@@ -687,6 +690,9 @@
     <string name="sharing__user_not_logged_in__dialog__title">Пожалуйста, войдите</string>
     <string name="sharing__user_not_logged_in__dialog__message">Откройте Wire и войдите в свой аккаунт, чтобы поделиться.</string>
     <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
+    <string name="sharing__file_sharing_prohibited__dialog__title">Ограничения на обмен файлами</string>
+    <string name="sharing__file_sharing_prohibited__dialog__message">Вы не можете поделиться этим файлом, поскольку данная возможность отключена.</string>
+    <string name="sharing__file_sharing_prohibited__dialog__confirm">OK</string>
     <!-- Sync errors -->
     <string name="in_app_notification__sync_error__create_group_convo__title">Не удалось создать</string>
     <string name="in_app_notification__sync_error__create_group_convo__body">Не удалось создать беседу с %1$s</string>
@@ -835,7 +841,6 @@
     <string name="audio_message_error__missing_audio_permissions">Для отправки аудиосообщений разрешите запись аудио.</string>
     <!-- Audio bit rate mode -->
     <string name="audio_message_constant_bit_rate">ПОСТОЯННЫЙ БИТРЕЙТ</string>
-    <string name="audio_message_variable_bit_rate">ПЕРЕМЕННЫЙ БИТРЕЙТ</string>
     <!-- no contacts -->
     <string name="no_conversation_in_list__header">Бесед пока нет</string>
     <string name="all_archived__header">Отправлено в архив</string>
@@ -1415,7 +1420,7 @@
     <!-- StartSSO Screen  -->
     <string name="start_sso_leaving_wire">Перенаправление&#8230;</string>
     <string name="start_sso_redirected_to">Вы будете перенаправлены на специализированное обслуживание вашей организации.</string>
-    <string name="start_sso_notice">Указывайте учетные данные, только если вы уверены, что это форма авторизации вашей организации.</string>
+    <string name="start_sso_notice">Указывайте учетные данные, только если уверены, что это страница авторизации вашей организации.</string>
     <!-- Legal Hold -->
     <string name="legal_hold_info_title">Юридические ограничения</string>
     <string name="legal_hold_self_user_info_message">Для вашей учетной записи активированы юридические ограничения.\n\nВсе сообщения будут сохранены для последующего доступа, включая удаленные, отредактированные и просроченные.\n\nВаши собеседники будут уведомлены об этом.</string>
@@ -1446,4 +1451,12 @@
     <string name="join_conversation_conversation_join_error_title">Вы не смогли присоединиться к беседе</string>
     <string name="join_conversation_invalid_link_error_message">Ссылка на беседу недействительна.</string>
     <string name="join_conversation_member_limit_reached_error_message">Беседа переполнена.</string>
+    <!-- File sharing feature config -->
+    <string name="file_sharing_restriction_info_dialog_title">В Wire произошли изменения</string>
+    <string name="file_sharing_restriction_info_dialog_message">Обмен и получение файлов любого типа теперь отключены</string>
+    <string name="file_sharing_restriction_info_image">ПОЛУЧЕНИЕ ИЗОБРАЖЕНИЙ ОГРАНИЧЕНО</string>
+    <string name="file_sharing_restriction_info_video">ПОЛУЧЕНИЕ ВИДЕО ОГРАНИЧЕНО</string>
+    <string name="file_sharing_restriction_info_audio">ПОЛУЧЕНИЕ АУДИОФАЙЛОВ ОГРАНИЧЕНО</string>
+    <string name="file_sharing_restriction_info_file">ПОЛУЧЕНИЕ ФАЙЛОВ ОГРАНИЧЕНО</string>
+    <string name="file_sharing_restriction_info_generic">ОБМЕН ФАЙЛАМИ ОГРАНИЧЕН</string>
 </resources>

@@ -79,8 +79,8 @@
     <string name="people_picker__search_result_conversations_header_title">Grupės</string>
     <string name="people_picker__search_result_team_conversations_header_title">%1$s grupės</string>
     <string name="people_picker__search_result_connections_searched_header_title">Kontaktai</string>
-    <string name="people_picker__search_result_others_header_title">Connect with Wire</string>
-    <string name="people_picker__search_result_others_header_federated">Connect with %1$s</string>
+    <string name="people_picker__search_result_others_header_title">Prisijunkite naudodami „Wire“</string>
+    <string name="people_picker__search_result_others_header_federated">Prisijunkite naudodami %1$s</string>
     <string name="people_picker__search_result__expander_title">Rodyti visus %1$s ↓</string>
     <string name="people_picker__search_people">ŽMONĖS</string>
     <string name="people_picker__search_services">PASLAUGOS</string>
@@ -95,7 +95,7 @@
     <string name="request_password_cancel">Atšaukti</string>
     <string name="request_password_biometric_description">Atrakinti naudojant biometrinį autentifikavimą.</string>
     <string name="request_password_biometric_cancel">Atšaukti</string>
-    <string name="request_password_error">Wrong passcode</string>
+    <string name="request_password_error">Neteisingas slaptažodis</string>
     <!-- Bots / Integrations / Services -->
     <string name="integrations_picker__section_title">Paslaugos</string>
     <string name="integrations_errors_add_service">Pridėti paslaugos negalima</string>
@@ -155,8 +155,8 @@
     <string name="content__system__someone_left">Kažkas išėjo</string>
     <string name="content__system__other_was_removed">%1$s bus pašalintas</string>
     <string name="content__system__someone_was_removed">Kažkas buvo pašalintas</string>
-    <string name="content__system__legalhold_conflict__you_were_removed">[[You]] were removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
-    <string name="content__system__legalhold_conflict__someone_was_removed">Someone was removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
+    <string name="content__system__legalhold_conflict__you_were_removed">[[You]] buvote pašalintas iš susirašinėjimo dėl teisinio sulaikymo. _SUŽINOKITE DAUGIAU_</string>
+    <string name="content__system__legalhold_conflict__someone_was_removed">Kažkas buvo pašalintas iš susirašinėjimo dėl teisinio sulaikymo. _SUŽINOKITE DAUGIAU_</string>
     <string name="content__system__legalhold_conflict__other_was_removed">%1$s was removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
     <string name="content__system__legalhold_conflict__others_were_removed">%1$s were removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
     <!-- Create conversation -->
@@ -271,6 +271,9 @@
     <string name="incoming__controls__ongoing__flip">APVERSTI</string>
     <string name="ongoing__poor_connection_message">VAIZDAS SUSTABDYTAS DĖL PRASTO RYŠIO</string>
     <string name="calling__self_preview_unavailable_long">KAMERA NEPRIEINAMA</string>
+    <string name="incoming__controls__ongoing__microphone">MIKROFONAS</string>
+    <string name="incoming__controls__ongoing__camera">FOTOAPARATAS</string>
+    <string name="incoming__controls__ongoing__flip_camera">PERJUNGTI KAMERĄ</string>
     <string name="calling__header__joining">Jungiamasi&#8230;</string>
     <string name="calling__header__outgoing_subtitle">Kviečiama&#8230;</string>
     <string name="calling__header__outgoing_video_subtitle">Kviečiama&#8230;</string>
@@ -687,6 +690,9 @@
     <string name="sharing__user_not_logged_in__dialog__title">Prisijunkite</string>
     <string name="sharing__user_not_logged_in__dialog__message">Atverkite „Wire“, prisijunkite ir galėsite bendrinti.</string>
     <string name="sharing__user_not_logged_in__dialog__confirm">GERAI</string>
+    <string name="sharing__file_sharing_prohibited__dialog__title">File sharing restrictions</string>
+    <string name="sharing__file_sharing_prohibited__dialog__message">You can not share this file because this feature is disabled.</string>
+    <string name="sharing__file_sharing_prohibited__dialog__confirm">GERAI</string>
     <!-- Sync errors -->
     <string name="in_app_notification__sync_error__create_group_convo__title">Nepavyko sukurti</string>
     <string name="in_app_notification__sync_error__create_group_convo__body">Nepavyko pradėti susirašinėjimo su %1$s</string>
@@ -835,7 +841,6 @@
     <string name="audio_message_error__missing_audio_permissions">Norint siųsti garso žinutes, turi būti suteikta teisė įrašyti garsą.</string>
     <!-- Audio bit rate mode -->
     <string name="audio_message_constant_bit_rate">KODAVIMAS PASTOVIA SPARTA</string>
-    <string name="audio_message_variable_bit_rate">VARIABLE BIT RATE</string>
     <!-- no contacts -->
     <string name="no_conversation_in_list__header">Kol kas nėra pokalbių</string>
     <string name="all_archived__header">Viskas užarchyvuota</string>
@@ -1189,7 +1194,7 @@
     <string name="notifications_explanation_text">Jums bus pranešta apie viską (įskaitant garso ir vaizdo skambučius) arba tik tada kai esate paminėta (-s).</string>
     <string name="show_all_participants">Rodyti visus (%1$s)</string>
     <string name="participant_was_removed_from_team">%s buvo pašalinta(-s) iš komandos</string>
-    <string name="all_participants">Participants (%1$s)</string>
+    <string name="all_participants">Dalyviai (%1$s)</string>
     <string name="allow_guests_error_title">Kažkas nutiko</string>
     <string name="allow_guests_error_body">Nepavyko leisti svečių ar tarnybų. Pabandykite dar kartą.</string>
     <string name="allow_guests_warning_body">Dabar esantys svečiai ir paslaugos bus pašalintos iš šio susirašinėjimo. Nauji svečiai ir tarnybos negalės prisijungti.</string>
@@ -1442,7 +1447,15 @@
     <string name="join_conversation_confirmation_message">You have been invited to a conversation:\n%s</string>
     <string name="join_conversation_confirmation_join_button_text">Prisijungti</string>
     <string name="join_conversation_confirmation_cancel_button_text">Atsisakyti</string>
-    <string name="join_conversation_conversation_join_error_title">You could not join the conversation</string>
+    <string name="join_conversation_conversation_join_error_title">Jums nepavyko prisijungti prie pokalbio</string>
     <string name="join_conversation_invalid_link_error_message">The conversation link is invalid.</string>
     <string name="join_conversation_member_limit_reached_error_message">The conversation is full.</string>
+    <!-- File sharing feature config -->
+    <string name="file_sharing_restriction_info_dialog_title">There has been a change in Wire</string>
+    <string name="file_sharing_restriction_info_dialog_message">Sharing and receiving files of any type is now disabled.</string>
+    <string name="file_sharing_restriction_info_image">RECEIVING IMAGES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_video">RECEIVING VIDEOS RESTRICTED</string>
+    <string name="file_sharing_restriction_info_audio">RECEIVING AUDIO FILES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_file">RECEIVING FILES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_generic">FILE SHARING RESTRICTED</string>
 </resources>
