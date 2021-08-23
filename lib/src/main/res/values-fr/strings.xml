@@ -923,7 +923,7 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     </plurals>
     <string name="ephemeral_message_footer_multiple_units">%1$s et %2$s restant</string>
     <string name="ephemeral_message_footer_single_unit">%1$s restant</string>
-    <string name="collection_header_pictures">IMAGES</string>
+    <string name="collection_header_images">IMAGES</string>
     <string name="collection_header_files">FICHIERS</string>
     <string name="collection_header_links">LIENS</string>
     <string name="collection_header_today">AUJOURD\'HUI</string>
@@ -1396,7 +1396,8 @@ Cette option ne s\'applique pas aux conversations de groupe.</string>
     <string name="join_conversation_member_limit_reached_error_message">La conversation est saturée</string>
     <!-- File sharing feature config -->
     <string name="file_sharing_restriction_info_dialog_title">Il y a eu un changement dans Wire</string>
-    <string name="file_sharing_restriction_info_dialog_message">Le partage et la réception de fichiers de n\'importe quel type est désactivé.</string>
+    <string name="file_sharing_enabled_info_dialog_message">Le partage et la réception de fichiers de n\'importe quel type est activé.</string>
+    <string name="file_sharing_disabled_info_dialog_message">Le partage et la réception de fichiers de n\'importe quel type est désactivé.</string>
     <string name="file_sharing_restriction_info_image">RECEIVING IMAGES RESTRICTED</string>
     <string name="file_sharing_restriction_info_video">RECEIVING VIDEOS RESTRICTED</string>
     <string name="file_sharing_restriction_info_audio">RECEIVING AUDIO FILES RESTRICTED</string>
