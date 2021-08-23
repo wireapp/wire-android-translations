@@ -966,7 +966,7 @@
     </plurals>
     <string name="ephemeral_message_footer_multiple_units">осталось %1$s и %2$s</string>
     <string name="ephemeral_message_footer_single_unit">осталось %1$s</string>
-    <string name="collection_header_images">IMAGES</string>
+    <string name="collection_header_images">ИЗОБРАЖЕНИЯ</string>
     <string name="collection_header_files">ФАЙЛЫ</string>
     <string name="collection_header_links">ССЫЛКИ</string>
     <string name="collection_header_today">СЕГОДНЯ</string>
