@@ -923,7 +923,7 @@ Gilt nicht für Gruppen.</string>
     </plurals>
     <string name="ephemeral_message_footer_multiple_units">Noch %1$s und %2$s</string>
     <string name="ephemeral_message_footer_single_unit">Noch %1$s</string>
-    <string name="collection_header_images">IMAGES</string>
+    <string name="collection_header_images">BILDER</string>
     <string name="collection_header_files">DATEIEN</string>
     <string name="collection_header_links">LINKS</string>
     <string name="collection_header_today">HEUTE</string>
