@@ -665,7 +665,7 @@
     <string name="sharing__user_not_logged_in__dialog__message">Abra o Wire e faça o login para compartilhar.</string>
     <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
     <string name="sharing__file_sharing_prohibited__dialog__title">Restrições de compartilhamento de arquivos</string>
-    <string name="sharing__file_sharing_prohibited__dialog__message">You can not share this file because this feature is disabled.</string>
+    <string name="sharing__file_sharing_prohibited__dialog__message">Você não pode compartilhar este arquivo porque este recurso está desativado.</string>
     <string name="sharing__file_sharing_prohibited__dialog__confirm">OK</string>
     <!-- Sync errors -->
     <string name="in_app_notification__sync_error__create_group_convo__title">Não é possível criar</string>
@@ -922,7 +922,7 @@
     </plurals>
     <string name="ephemeral_message_footer_multiple_units">%1$s e %2$s restantes</string>
     <string name="ephemeral_message_footer_single_unit">%1$s restante</string>
-    <string name="collection_header_images">IMAGES</string>
+    <string name="collection_header_images">IMAGENS</string>
     <string name="collection_header_files">ARQUIVOS</string>
     <string name="collection_header_links">LINKS</string>
     <string name="collection_header_today">HOJE</string>
@@ -1397,9 +1397,19 @@
     <string name="file_sharing_restriction_info_dialog_title">Houve uma mudança no Wire</string>
     <string name="file_sharing_enabled_info_dialog_message">Compartilhar e receber arquivos de qualquer tipo agora está ativado.</string>
     <string name="file_sharing_disabled_info_dialog_message">Compartilhar e receber arquivos de qualquer tipo agora está desativado.</string>
-    <string name="file_sharing_restriction_info_image">RECEIVING IMAGES RESTRICTED</string>
-    <string name="file_sharing_restriction_info_video">RECEIVING VIDEOS RESTRICTED</string>
-    <string name="file_sharing_restriction_info_audio">RECEIVING AUDIO FILES RESTRICTED</string>
-    <string name="file_sharing_restriction_info_file">RECEIVING FILES RESTRICTED</string>
-    <string name="file_sharing_restriction_info_generic">FILE SHARING RESTRICTED</string>
+    <string name="file_sharing_restriction_info_image">RECEBENDO IMAGENS RESTRITAS</string>
+    <string name="file_sharing_restriction_info_video">RECEBENDO VÍDEOS RESTRITOS</string>
+    <string name="file_sharing_restriction_info_audio">RECEBENDO ARQUIVOS DE ÁUDIO RESTRITOS</string>
+    <string name="file_sharing_restriction_info_file">RECEBENDO ARQUIVOS RESTRITOS</string>
+    <string name="file_sharing_restriction_info_generic">COMPARTILHAMENTO DE ARQUIVOS RESTRITO</string>
+    <string name="conference_calling_restriction_dialog_title">Atualizar para o plano Empresarial</string>
+    <string name="conference_calling_restriction_dialog_description">Sua equipe está atualmente no plano Básico gratuito. Atualize para o plano Empresarial para ter acesso a recursos como o início de conferências e muito mais.
+    &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/pricing/">Saiba mais sobre os preços do Wire</a>]]></string>
+    <string name="conference_calling_restriction_dialog_positive_button">ATUALIZAR AGORA</string>
+    <string name="conference_calling_restriction_dialog_negative_button">CANCELAR</string>
+    <string name="upgraded_plan_dialog_title">Wire empresarial</string>
+    <string name="upgraded_plan_dialog_description">Sua equipe foi atualizada para o Wire Empresarial, que oferece acesso a recursos como chamadas em conferência e muito mais.
+        &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/products/enterprise-collaboration/">Saiba mais sobre o Wire Empresarial</a>]]></string>
+    <string name="feature_not_accessible_dialog_title">Recurso não acessível</string>
+    <string name="feature_not_accessible_dialog_description">Para usar o recurso de conferência, o administrador da equipe precisa atualizar o Wire</string>
 </resources>
