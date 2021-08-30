@@ -95,7 +95,7 @@
     <string name="request_password_cancel">Anuluj</string>
     <string name="request_password_biometric_description">Unlock using biometric authentication.</string>
     <string name="request_password_biometric_cancel">Anuluj</string>
-    <string name="request_password_error">Wrong passcode</string>
+    <string name="request_password_error">Błędne hasło</string>
     <!-- Bots / Integrations / Services -->
     <string name="integrations_picker__section_title">Usługi</string>
     <string name="integrations_errors_add_service">Dodanie usługi jest niemożliwe</string>
@@ -440,7 +440,7 @@
     <string name="pref_advanced_receive_news_and_offers_title">Otrzymuj newsletter</string>
     <string name="pref_advanced_receive_news_and_offers_summary">Otrzymuj wiadomości i aktualizacje produktów od Wire za pośrednictwem poczty elektronicznej.</string>
     <!-- App Lock -->
-    <string name="pref_options_app_lock">Passcode</string>
+    <string name="pref_options_app_lock">Hasło</string>
     <string name="pref_options_app_lock_change">Change passcode</string>
     <string name="app_lock_locked_title">Wire is locked due to inactivity</string>
     <string name="app_lock_locked_message">Please enter your account passcode.</string>
@@ -625,8 +625,8 @@
     <string name="notification__message__group__default_conversation_name">rozmowa grupowa</string>
     <string name="notification__message__send_failed">Wysyłanie wiadomości się nie powiodło</string>
     <string name="notification__message__ephemeral">Wysłał(a) ci wiadomość</string>
-    <string name="notification__message_with_mention__ephemeral">Mentioned you</string>
-    <string name="notification__message_with_quote__ephemeral">Replied to you</string>
+    <string name="notification__message_with_mention__ephemeral">Wspomniał o Tobie</string>
+    <string name="notification__message_with_quote__ephemeral">Odpowiedział Tobie</string>
     <string name="notification__message__liked">\u2764 ‘%1$s’</string>
     <string name="notification__message__liked_message">\u2764 Twoją wiadomość</string>
     <string name="notification__message__liked_picture">\u2764 Twój obraz</string>
@@ -691,7 +691,7 @@
     <string name="sharing__user_not_logged_in__dialog__message">Otwórz Wire i zaloguj się, by udostępnić.</string>
     <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
     <string name="sharing__file_sharing_prohibited__dialog__title">File sharing restrictions</string>
-    <string name="sharing__file_sharing_prohibited__dialog__message">You can not share this file because this feature is disabled.</string>
+    <string name="sharing__file_sharing_prohibited__dialog__message">Nie możesz udostępnić tego pliku, ponieważ ta funkcja jest wyłączona.</string>
     <string name="sharing__file_sharing_prohibited__dialog__confirm">OK</string>
     <!-- Sync errors -->
     <string name="in_app_notification__sync_error__create_group_convo__title">Nie można utworzyć</string>
@@ -1027,9 +1027,9 @@
     <string name="conversation_list__missed_call">Nieodebrane połączenie</string>
     <string name="conversation_list__pinged">Zaczepiony/a</string>
     <string name="conversation_list__ephemeral">Someone sent a message</string>
-    <string name="conversation_list__single_eph_and_mention">Mentioned you</string>
+    <string name="conversation_list__single_eph_and_mention">Wspomniał o Tobie</string>
     <string name="conversation_list__group_eph_and_mention">Someone mentioned you</string>
-    <string name="conversation_list__single_eph_and_quote">Replied to you</string>
+    <string name="conversation_list__single_eph_and_quote">Odpowiedział Tobie</string>
     <string name="conversation_list__group_eph_and_quote">Someone replied to you</string>
     <string name="conversation_list__typing">Pisanie wiadomości&#8230;</string>
     <string name="conversation_list__someone">Ktoś</string>

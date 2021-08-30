@@ -1467,6 +1467,6 @@
     <string name="upgraded_plan_dialog_title">Wire enterprise</string>
     <string name="upgraded_plan_dialog_description">Your team was upgraded to Wire Enterprise, which gives you access to features such as conference calls and more.
         &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/products/enterprise-collaboration/">Learn more about Wire Enterprise</a>]]></string>
-    <string name="feature_not_accessible_dialog_title">Feature not accessible</string>
+    <string name="feature_not_accessible_dialog_title">Ypatybė nepasiekiama</string>
     <string name="feature_not_accessible_dialog_description">To use the conferencing feature your team admin needs to upgrade Wire</string>
 </resources>

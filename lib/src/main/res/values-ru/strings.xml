@@ -1461,13 +1461,13 @@
     <string name="file_sharing_restriction_info_file">ПОЛУЧЕНИЕ ФАЙЛОВ ОГРАНИЧЕНО</string>
     <string name="file_sharing_restriction_info_generic">ОБМЕН ФАЙЛАМИ ОГРАНИЧЕН</string>
     <string name="conference_calling_restriction_dialog_title">Перейти на enterprise</string>
-    <string name="conference_calling_restriction_dialog_description">Your team is currently on the free Basic plan. Upgrade to Enterprise for access to  features such as starting conferences and more.
-    &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/pricing/">Learn more about Wires pricing</a>]]></string>
+    <string name="conference_calling_restriction_dialog_description">В настоящее время ваша команда использует бесплатный тарифный план Basic. Перейдите на тарифный план Enterprise, чтобы получить доступ к таким возможностям, как конференц-связь и многим другим.
+    &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/pricing/">Узнайте больше о ценах в Wire</a>]]></string>
     <string name="conference_calling_restriction_dialog_positive_button">ПЕРЕЙТИ СЕЙЧАС</string>
     <string name="conference_calling_restriction_dialog_negative_button">ОТМЕНА</string>
     <string name="upgraded_plan_dialog_title">Wire enterprise</string>
-    <string name="upgraded_plan_dialog_description">Your team was upgraded to Wire Enterprise, which gives you access to features such as conference calls and more.
-        &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/products/enterprise-collaboration/">Learn more about Wire Enterprise</a>]]></string>
-    <string name="feature_not_accessible_dialog_title">Feature not accessible</string>
-    <string name="feature_not_accessible_dialog_description">To use the conferencing feature your team admin needs to upgrade Wire</string>
+    <string name="upgraded_plan_dialog_description">Ваша команда была обновлена до Wire Enterprise, что позволяет вам получить доступ к таким возможностям, как конференц-связь и многим другим.
+        &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/products/enterprise-collaboration/">Узнайте больше о Wire Enterprise</a>]]></string>
+    <string name="feature_not_accessible_dialog_title">Опция недоступна</string>
+    <string name="feature_not_accessible_dialog_description">Для использования опции конференц-связи администратору вашей команды необходимо обновить Wire</string>
 </resources>
