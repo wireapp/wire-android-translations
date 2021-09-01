@@ -1408,7 +1408,7 @@ Gilt nicht für Gruppen.</string>
     <string name="conference_calling_restriction_dialog_title">Upgrade to enterprise</string>
     <string name="conference_calling_restriction_dialog_description">Your team is currently on the free Basic plan. Upgrade to Enterprise for access to  features such as starting conferences and more.
     &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/pricing/">Learn more about Wires pricing</a>]]></string>
-    <string name="conference_calling_restriction_dialog_positive_button">UPGRADE NOW</string>
+    <string name="conference_calling_restriction_dialog_positive_button">JETZT UPGRADEN</string>
     <string name="conference_calling_restriction_dialog_negative_button">Abbrechen</string>
     <string name="upgraded_plan_dialog_title">Wire enterprise</string>
     <string name="upgraded_plan_dialog_description">Your team was upgraded to Wire Enterprise, which gives you access to features such as conference calls and more.
