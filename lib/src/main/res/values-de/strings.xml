@@ -1396,8 +1396,9 @@ Gilt nicht für Gruppen.</string>
     <string name="join_conversation_conversation_join_error_title">Sie konnten der Unterhaltung nicht beitreten</string>
     <string name="join_conversation_invalid_link_error_message">Der Link zu dieser Unterhaltung ist ungültig.</string>
     <string name="join_conversation_member_limit_reached_error_message">Die Unterhaltung ist voll.</string>
+    <!-- Feature Config Changes -->
+    <string name="feature_config_changed_info_dialog_title">Es gab eine Änderung bei Wire</string>
     <!-- File sharing feature config -->
-    <string name="file_sharing_restriction_info_dialog_title">Es gab eine Änderung bei Wire</string>
     <string name="file_sharing_enabled_info_dialog_message">Das Teilen und Empfangen von Dateien jeder Art ist jetzt aktiviert</string>
     <string name="file_sharing_disabled_info_dialog_message">Das Teilen und Empfangen von Dateien jeder Art ist jetzt deaktiviert</string>
     <string name="file_sharing_restriction_info_image">EMPFANG VON BILDERN EINGESCHRÄNKT</string>
@@ -1405,6 +1406,11 @@ Gilt nicht für Gruppen.</string>
     <string name="file_sharing_restriction_info_audio">EMPFANG VON AUDIODATEIEN EINGESCHRÄNKT</string>
     <string name="file_sharing_restriction_info_file">EMPFANG VON DATEIEN EINGESCHRÄNKT</string>
     <string name="file_sharing_restriction_info_generic">DATEIFREIGABE EINGESCHRÄNKT</string>
+    <!-- Self Deleting Messages feature config -->
+    <string name="self_deleting_messages_change_info_dialog_message_enabled">Sending of self deleting messages is enabled.</string>
+    <string name="self_deleting_messages_change_info_dialog_message_enabled_enforced">Sending of self deleting messages is mandatory. The enforced timeout for deletion is %s seconds.</string>
+    <string name="self_deleting_messages_change_info_dialog_message_disabled">Sending of self deleting messages is disabled.</string>
+    <!-- Conference Calling Restriction feature config -->
     <string name="conference_calling_restriction_dialog_title">Upgrade to enterprise</string>
     <string name="conference_calling_restriction_dialog_description">Your team is currently on the free Basic plan. Upgrade to Enterprise for access to  features such as starting conferences and more.
     &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/pricing/">Learn more about Wires pricing</a>]]></string>

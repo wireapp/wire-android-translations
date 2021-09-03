@@ -1451,8 +1451,9 @@
     <string name="join_conversation_conversation_join_error_title">Не вдалося приєднатися до розмови</string>
     <string name="join_conversation_invalid_link_error_message">Посилання на розмову недійсне.</string>
     <string name="join_conversation_member_limit_reached_error_message">Розмова переповнена.</string>
+    <!-- Feature Config Changes -->
+    <string name="feature_config_changed_info_dialog_title">У Wire відбулися зміни</string>
     <!-- File sharing feature config -->
-    <string name="file_sharing_restriction_info_dialog_title">У Wire відбулися зміни</string>
     <string name="file_sharing_enabled_info_dialog_message">Отримання та надсилання файлів будь-якого типу було увімкнено.</string>
     <string name="file_sharing_disabled_info_dialog_message">Отримання та надсилання файлів будь-якого типу було вимкнено.</string>
     <string name="file_sharing_restriction_info_image">ОТРИМАННЯ КАРТИНОК ОБМЕЖЕНЕ</string>
@@ -1460,6 +1461,11 @@
     <string name="file_sharing_restriction_info_audio">ОТРИМАННЯ АУДІО-ФАЙЛІВ ОБМЕЖЕНЕ</string>
     <string name="file_sharing_restriction_info_file">ОТРИМАННЯ ФАЙЛІВ ОБМЕЖЕНЕ</string>
     <string name="file_sharing_restriction_info_generic">ПЕРЕСИЛКА ФАЙЛІВ ОБМЕЖЕНА</string>
+    <!-- Self Deleting Messages feature config -->
+    <string name="self_deleting_messages_change_info_dialog_message_enabled">Надсилання тимчасових повідомлень включене.</string>
+    <string name="self_deleting_messages_change_info_dialog_message_enabled_enforced">Надсилання тимчасових повідомлень обов\'язкове. Таймаут для видалення становить %s секунд.</string>
+    <string name="self_deleting_messages_change_info_dialog_message_disabled">Надсилання тимчасових повідомлень виключене.</string>
+    <!-- Conference Calling Restriction feature config -->
     <string name="conference_calling_restriction_dialog_title">Оновити до ентерпрайз-версії</string>
     <string name="conference_calling_restriction_dialog_description">Зараз ваша команда використовує безкоштовний базовий план. Оновіться до ентерпрайз-версії для доступу до таких функцій, як відео-конференції, та багатьох інших.
     &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/pricing/">Дізнатися більше про цінову політику Wire</a>]]></string>

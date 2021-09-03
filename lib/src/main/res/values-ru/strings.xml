@@ -1451,8 +1451,9 @@
     <string name="join_conversation_conversation_join_error_title">Вы не смогли присоединиться к беседе</string>
     <string name="join_conversation_invalid_link_error_message">Ссылка на беседу недействительна.</string>
     <string name="join_conversation_member_limit_reached_error_message">Беседа переполнена.</string>
+    <!-- Feature Config Changes -->
+    <string name="feature_config_changed_info_dialog_title">В Wire произошли изменения</string>
     <!-- File sharing feature config -->
-    <string name="file_sharing_restriction_info_dialog_title">В Wire произошли изменения</string>
     <string name="file_sharing_enabled_info_dialog_message">Обмен и получение файлов любого типа теперь включены</string>
     <string name="file_sharing_disabled_info_dialog_message">Обмен и получение файлов любого типа теперь отключены</string>
     <string name="file_sharing_restriction_info_image">ПОЛУЧЕНИЕ ИЗОБРАЖЕНИЙ ОГРАНИЧЕНО</string>
@@ -1460,6 +1461,11 @@
     <string name="file_sharing_restriction_info_audio">ПОЛУЧЕНИЕ АУДИОФАЙЛОВ ОГРАНИЧЕНО</string>
     <string name="file_sharing_restriction_info_file">ПОЛУЧЕНИЕ ФАЙЛОВ ОГРАНИЧЕНО</string>
     <string name="file_sharing_restriction_info_generic">ОБМЕН ФАЙЛАМИ ОГРАНИЧЕН</string>
+    <!-- Self Deleting Messages feature config -->
+    <string name="self_deleting_messages_change_info_dialog_message_enabled">Отправка самоудаляющихся сообщений включена.</string>
+    <string name="self_deleting_messages_change_info_dialog_message_enabled_enforced">Отправка самоудаляющихся сообщений является обязательной. Принудительный тайм-аут для удаления составляет %s секунд.</string>
+    <string name="self_deleting_messages_change_info_dialog_message_disabled">Отправка самоудаляющихся сообщений выключена.</string>
+    <!-- Conference Calling Restriction feature config -->
     <string name="conference_calling_restriction_dialog_title">Перейти на enterprise</string>
     <string name="conference_calling_restriction_dialog_description">В настоящее время ваша команда использует бесплатный тарифный план Basic. Перейдите на тарифный план Enterprise, чтобы получить доступ к таким возможностям, как конференц-связь и многим другим.
     &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/pricing/">Узнайте больше о ценах в Wire</a>]]></string>

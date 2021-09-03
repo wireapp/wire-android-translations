@@ -1393,8 +1393,9 @@
     <string name="join_conversation_conversation_join_error_title">Você não pôde entrar na conversa</string>
     <string name="join_conversation_invalid_link_error_message">O link da conversa é inválido.</string>
     <string name="join_conversation_member_limit_reached_error_message">A conversa está cheia.</string>
+    <!-- Feature Config Changes -->
+    <string name="feature_config_changed_info_dialog_title">Houve uma mudança no Wire</string>
     <!-- File sharing feature config -->
-    <string name="file_sharing_restriction_info_dialog_title">Houve uma mudança no Wire</string>
     <string name="file_sharing_enabled_info_dialog_message">Compartilhar e receber arquivos de qualquer tipo agora está ativado.</string>
     <string name="file_sharing_disabled_info_dialog_message">Compartilhar e receber arquivos de qualquer tipo agora está desativado.</string>
     <string name="file_sharing_restriction_info_image">RECEBENDO IMAGENS RESTRITAS</string>
@@ -1402,6 +1403,11 @@
     <string name="file_sharing_restriction_info_audio">RECEBENDO ARQUIVOS DE ÁUDIO RESTRITOS</string>
     <string name="file_sharing_restriction_info_file">RECEBENDO ARQUIVOS RESTRITOS</string>
     <string name="file_sharing_restriction_info_generic">COMPARTILHAMENTO DE ARQUIVOS RESTRITO</string>
+    <!-- Self Deleting Messages feature config -->
+    <string name="self_deleting_messages_change_info_dialog_message_enabled">O envio de mensagens de auto-exclusão está ativado.</string>
+    <string name="self_deleting_messages_change_info_dialog_message_enabled_enforced">O envio de mensagens de auto-exclusão é obrigatório. O tempo limite imposto para exclusão é %s segundos.</string>
+    <string name="self_deleting_messages_change_info_dialog_message_disabled">O envio de mensagens de auto-exclusão está desativado.</string>
+    <!-- Conference Calling Restriction feature config -->
     <string name="conference_calling_restriction_dialog_title">Atualizar para o plano Empresarial</string>
     <string name="conference_calling_restriction_dialog_description">Sua equipe está atualmente no plano Básico gratuito. Atualize para o plano Empresarial para ter acesso a recursos como o início de conferências e muito mais.
     &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/pricing/">Saiba mais sobre os preços do Wire</a>]]></string>
