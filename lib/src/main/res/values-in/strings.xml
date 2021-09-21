@@ -425,7 +425,7 @@
     <!-- Options -->
     <string name="pref_options_screen_title">Pilihan</string>
     <string name="pref_options_vbr_title">Variabel Bit Rate Encoding</string>
-    <string name="pref_options_vbr_summary">Hal ini membuat panggilan audio menggunakan lebih sedikit data dan bekerja lebih baik pada jaringan yang lebih lambat. Matikan untuk menggunakan Constant Bitrate Encoding.</string>
+    <string name="pref_options_vbr_summary">This makes audio calls use less data and work better on slower networks. Turn off to use constant bitrate encoding (CBR). This setting only affects 1:1 calls; conference calls always use CBR encoding.</string>
     <string name="pref_options_alerts_category_title">Peringatan</string>
     <string name="pref_options_calls_category_title">Panggilan</string>
     <string name="pref_options_sounds_title">Suara</string>
@@ -802,7 +802,7 @@
     <string name="no_conversation_in_list__message">Mulai percakapan atau buat grup.</string>
     <string name="default_deleted_username">Default</string>
     <string name="cursor__type_a_message">KETIK PESAN</string>
-    <string name="cursor__ephemeral_message">PESAN BERJANGKA WAKTU</string>
+    <string name="cursor__ephemeral_message">SELF-DELETING MESSAGE</string>
     <string name="tooltip_record">Rekam video</string>
     <string name="tooltip_camera">Tambah foto</string>
     <string name="tooltip_sketch">Corat-coret Gambar</string>
@@ -878,7 +878,7 @@
     <string name="usernames__take_over__choose">PILIH MILIK ANDA</string>
     <string name="usernames__take_over__keep">JAGA YANG SATU INI</string>
     <string name="ephemeral_message__timeout__off">Nonaktif</string>
-    <string name="ephemeral_message__options_header">TIMED MESSAGES</string>
+    <string name="ephemeral_message__options_header">SELF-DELETING MESSAGES</string>
     <string name="guests_option_on">On</string>
     <plurals name="unit_years">
         <item quantity="other">%1$s years</item>
@@ -1101,9 +1101,9 @@
     <string name="open_this_conversation_to_people_outside_your_team">Open this conversation to services and people outside your team.</string>
     <string name="allow_guests">Allow guests and services</string>
     <string name="guest_options_title">Guests and services</string>
-    <string name="ephemeral_options_title">Timed messages</string>
+    <string name="ephemeral_options_title">Self-deleting messages</string>
     <string name="notifications_options_title">Notifikasi</string>
-    <string name="ephemeral_explanation_text">Timed messages will be turned on for all the participants in this conversation</string>
+    <string name="ephemeral_explanation_text">Self-deleting messages will be turned on for all the participants in this conversation</string>
     <string name="notifications_explanation_text">You can be notified about everything (including audio and video calls) or only when you are mentioned.</string>
     <string name="show_all_participants">Show all (%1$s)</string>
     <string name="participant_was_removed_from_team">%s was removed from team</string>
@@ -1336,12 +1336,12 @@
     <string name="start_sso_notice">Provide credentials only if you\'re sure this is your organization\'s login.</string>
     <!-- Legal Hold -->
     <string name="legal_hold_info_title">Legal Hold</string>
-    <string name="legal_hold_self_user_info_message">Legal Hold has been activated for your account.\n\nAll Messages will be preserved for future access, including deleted, edited, and timed messages.\n\nYour conversation partners will be aware of the recording.</string>
-    <string name="legal_hold_conversation_info_message">Legal Hold has been activated for at least one person in this conversation.\n\nAll Messages will be preserved for future access, including deleted, edited, and timed messages.</string>
+    <string name="legal_hold_self_user_info_message">Legal Hold has been activated for your account.\n\nAll Messages will be preserved for future access, including deleted, edited, and self-deleting messages.\n\nYour conversation partners will be aware of the recording.</string>
+    <string name="legal_hold_conversation_info_message">Legal Hold has been activated for at least one person in this conversation.\n\nAll Messages will be preserved for future access, including deleted, edited, and self-deleting messages.</string>
     <string name="legal_hold_info_list_title">Legal Hold Subjects</string>
     <string name="legal_hold_request_dialog_title">Legal Hold Requested</string>
-    <string name="legal_hold_request_dialog_message_for_sso">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and timed messages in all conversations.</string>
-    <string name="legal_hold_request_dialog_message">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and timed messages in all conversations.\nEnter your password to confirm.</string>
+    <string name="legal_hold_request_dialog_message_for_sso">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and self-deleting messages in all conversations.</string>
+    <string name="legal_hold_request_dialog_message">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and self-deleting messages in all conversations.\nEnter your password to confirm.</string>
     <string name="legal_hold_request_dialog_positive_button_text">Terima</string>
     <string name="legal_hold_request_dialog_negative_button_text">Tidak Sekarang</string>
     <string name="legal_hold_request_dialog_wrong_password_error">Sandi salah</string>
@@ -1369,10 +1369,10 @@
     <!-- File sharing feature config -->
     <string name="file_sharing_enabled_info_dialog_message">Sharing and receiving files of any type is now enabled.</string>
     <string name="file_sharing_disabled_info_dialog_message">Sharing and receiving files of any type is now disabled.</string>
-    <string name="file_sharing_restriction_info_image">RECEIVING IMAGES RESTRICTED</string>
-    <string name="file_sharing_restriction_info_video">RECEIVING VIDEOS RESTRICTED</string>
-    <string name="file_sharing_restriction_info_audio">RECEIVING AUDIO FILES RESTRICTED</string>
-    <string name="file_sharing_restriction_info_file">RECEIVING FILES RESTRICTED</string>
+    <string name="file_sharing_restriction_info_image">RECEIVING IMAGES IS PROHIBITED</string>
+    <string name="file_sharing_restriction_info_video">RECEIVING VIDEOS IS PROHIBITED</string>
+    <string name="file_sharing_restriction_info_audio">RECEIVING AUDIO FILES IS PROHIBITED</string>
+    <string name="file_sharing_restriction_info_file">RECEIVING FILES IS PROHIBITED</string>
     <string name="file_sharing_restriction_info_generic">FILE SHARING RESTRICTED</string>
     <!-- Self Deleting Messages feature config -->
     <string name="self_deleting_messages_change_info_dialog_message_enabled">Sending of self deleting messages is enabled.</string>
@@ -1380,13 +1380,14 @@
     <string name="self_deleting_messages_change_info_dialog_message_disabled">Sending of self deleting messages is disabled.</string>
     <!-- Conference Calling Restriction feature config -->
     <string name="conference_calling_restriction_dialog_title">Upgrade to enterprise</string>
-    <string name="conference_calling_restriction_dialog_description">Your team is currently on the free Basic plan. Upgrade to Enterprise for access to  features such as starting conferences and more.
-    &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/pricing/">Learn more about Wires pricing</a>]]></string>
+    <string name="conference_calling_restriction_dialog_description">Your team is currently on the free Basic plan. Upgrade to Enterprise for access to features such as starting conferences and more.
+    &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/pricing/">Learn more about Wire\'s pricing</a>]]></string>
     <string name="conference_calling_restriction_dialog_positive_button">UPGRADE NOW</string>
     <string name="conference_calling_restriction_dialog_negative_button">BATAL</string>
     <string name="upgraded_plan_dialog_title">Wire enterprise</string>
     <string name="upgraded_plan_dialog_description">Your team was upgraded to Wire Enterprise, which gives you access to features such as conference calls and more.
         &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/products/enterprise-collaboration/">Learn more about Wire Enterprise</a>]]></string>
-    <string name="feature_not_accessible_dialog_title">Feature not accessible</string>
-    <string name="feature_not_accessible_dialog_description">To use the conferencing feature your team admin needs to upgrade Wire</string>
+    <string name="conference_calling_unavailable_dialog_title">Feature unavailable</string>
+    <string name="conference_calling_unavailable_dialog_description_personal_user">The option to initiate a conference call is only available in the paid version of Wire.</string>
+    <string name="conference_calling_unavailable_dialog_description_team_member_user">To start a conference call, your team needs to upgrade to the Enterprise plan.</string>
 </resources>

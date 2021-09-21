@@ -435,7 +435,7 @@
     <!-- Options -->
     <string name="pref_options_screen_title">Opções</string>
     <string name="pref_options_vbr_title">Codificação com Taxa de Bits Variável</string>
-    <string name="pref_options_vbr_summary">Isto faz chamadas de áudio usar menos dados e funcionam melhor em redes mais lentas. Desligue para usar a Codificação com Taxa de Bits Constante.</string>
+    <string name="pref_options_vbr_summary">Isso faz com que as chamadas de áudio usem menos dados e funcionem melhor em redes mais lentas. Desligue para usar a codificação de taxa de bits constante (CBR). Essa configuração afeta apenas chamadas 1:1; as chamadas em conferência sempre usam a codificação CBR.</string>
     <string name="pref_options_alerts_category_title">Alertas</string>
     <string name="pref_options_calls_category_title">Chamadas</string>
     <string name="pref_options_sounds_title">Sons</string>
@@ -817,7 +817,7 @@
     <string name="no_conversation_in_list__message">Iniciar uma conversa ou criar um grupo.</string>
     <string name="default_deleted_username">Padrão</string>
     <string name="cursor__type_a_message">DIGITE UMA MENSAGEM</string>
-    <string name="cursor__ephemeral_message">MENSAGENS TEMPORÁRIAS</string>
+    <string name="cursor__ephemeral_message">AUTO-EXCLUSÃO DE MENSAGEM</string>
     <string name="tooltip_record">Gravar vídeo</string>
     <string name="tooltip_camera">Adicionar foto</string>
     <string name="tooltip_sketch">Desenhar</string>
@@ -894,7 +894,7 @@
     <string name="usernames__take_over__choose">ESCOLHA O SEU PRÓPRIO</string>
     <string name="usernames__take_over__keep">MANTER ESSE</string>
     <string name="ephemeral_message__timeout__off">Desligar</string>
-    <string name="ephemeral_message__options_header">MENSAGENS TEMPORÁRIAS</string>
+    <string name="ephemeral_message__options_header">AUTO-EXCLUSÃO DE MENSAGENS</string>
     <string name="guests_option_on">Ligado</string>
     <plurals name="unit_years">
         <item quantity="one">%1$s ano</item>
@@ -1130,9 +1130,9 @@
     <string name="open_this_conversation_to_people_outside_your_team">Abra esta conversa para serviços e pessoas fora da sua equipe.</string>
     <string name="allow_guests">Permitir convidados e serviços</string>
     <string name="guest_options_title">Convidados e serviços</string>
-    <string name="ephemeral_options_title">Mensagens temporárias</string>
+    <string name="ephemeral_options_title">Auto-exclusão de mensagens</string>
     <string name="notifications_options_title">Notificações</string>
-    <string name="ephemeral_explanation_text">As mensagens temporárias serão ativadas para todos os participantes nesta conversa</string>
+    <string name="ephemeral_explanation_text">A auto-exclusão de mensagens será ativada para todos os participantes desta conversa</string>
     <string name="notifications_explanation_text">Você pode ser notificado sobre tudo (incluindo chamadas de áudio e vídeo) ou apenas quando for mencionado.</string>
     <string name="show_all_participants">Mostrar todos (%1$s)</string>
     <string name="participant_was_removed_from_team">%s foi removido da equipe</string>
@@ -1365,12 +1365,12 @@
     <string name="start_sso_notice">Forneça credenciais apenas se tiver certeza de que este é o login da sua organização.</string>
     <!-- Legal Hold -->
     <string name="legal_hold_info_title">Retenção Legal</string>
-    <string name="legal_hold_self_user_info_message">A Retenção Legal foi ativada para sua conta.\n\nTodas as mensagens serão preservadas para acesso futuro, incluindo mensagens excluídas, editadas e temporárias.\n\nSeus parceiros de conversa estarão cientes da gravação.</string>
-    <string name="legal_hold_conversation_info_message">A Retenção Legal foi ativada para pelo menos uma pessoa nesta conversa.\n\nTodas as mensagens serão preservadas para acesso futuro, incluindo mensagens excluídas, editadas e temporárias.</string>
+    <string name="legal_hold_self_user_info_message">A Retenção Legal foi ativada para sua conta.\n\nTodas as mensagens serão preservadas para acesso futuro, incluindo mensagens excluídas, editadas e de auto-exclusão.\n\nSeus parceiros de conversa saberão da gravação.</string>
+    <string name="legal_hold_conversation_info_message">A Retenção Legal foi ativada para pelo menos uma pessoa nesta conversa.\n\nTodas as mensagens serão preservadas para acesso futuro, incluindo mensagens excluídas, editadas e de auto-exclusão.</string>
     <string name="legal_hold_info_list_title">Assuntos de Retenção Legal</string>
     <string name="legal_hold_request_dialog_title">Retenção Legal Solicitada</string>
-    <string name="legal_hold_request_dialog_message_for_sso">Todas as mensagens futuras serão gravadas pelo dispositivo com impressão digital:\n%1$sIsso inclui mensagens excluídas, editadas e temporárias em todas as conversas.</string>
-    <string name="legal_hold_request_dialog_message">Todas as mensagens futuras serão gravadas pelo dispositivo com impressão digital:\n%1$sIsso inclui mensagens excluídas, editadas e temporárias em todas as conversas.\nDigite sua senha para confirmar.</string>
+    <string name="legal_hold_request_dialog_message_for_sso">Todas as mensagens futuras serão gravadas pelo dispositivo com impressão digital:\n%1$sIsso inclui mensagens excluídas, editadas e de auto-exclusão em todas as conversas.</string>
+    <string name="legal_hold_request_dialog_message">Todas as mensagens futuras serão gravadas pelo dispositivo com impressão digital:\n%1$sIsso inclui mensagens excluídas, editadas e de auto-exclusão em todas as conversas.\nDigite sua senha para confirmar.</string>
     <string name="legal_hold_request_dialog_positive_button_text">Aceitar</string>
     <string name="legal_hold_request_dialog_negative_button_text">Agora Não</string>
     <string name="legal_hold_request_dialog_wrong_password_error">Senha incorreta</string>
@@ -1398,10 +1398,10 @@
     <!-- File sharing feature config -->
     <string name="file_sharing_enabled_info_dialog_message">Compartilhar e receber arquivos de qualquer tipo agora está ativado.</string>
     <string name="file_sharing_disabled_info_dialog_message">Compartilhar e receber arquivos de qualquer tipo agora está desativado.</string>
-    <string name="file_sharing_restriction_info_image">RECEBENDO IMAGENS RESTRITAS</string>
-    <string name="file_sharing_restriction_info_video">RECEBENDO VÍDEOS RESTRITOS</string>
-    <string name="file_sharing_restriction_info_audio">RECEBENDO ARQUIVOS DE ÁUDIO RESTRITOS</string>
-    <string name="file_sharing_restriction_info_file">RECEBENDO ARQUIVOS RESTRITOS</string>
+    <string name="file_sharing_restriction_info_image">RECEBER IMAGENS É PROIBIDO</string>
+    <string name="file_sharing_restriction_info_video">RECEBER VÍDEOS É PROIBIDO</string>
+    <string name="file_sharing_restriction_info_audio">RECEBER ARQUIVOS DE ÁUDIO É PROIBIDO</string>
+    <string name="file_sharing_restriction_info_file">RECEBER ARQUIVOS É PROIBIDO</string>
     <string name="file_sharing_restriction_info_generic">COMPARTILHAMENTO DE ARQUIVOS RESTRITO</string>
     <!-- Self Deleting Messages feature config -->
     <string name="self_deleting_messages_change_info_dialog_message_enabled">O envio de mensagens de auto-exclusão está ativado.</string>
@@ -1416,6 +1416,7 @@
     <string name="upgraded_plan_dialog_title">Wire empresarial</string>
     <string name="upgraded_plan_dialog_description">Sua equipe foi atualizada para o Wire Empresarial, que oferece acesso a recursos como chamadas em conferência e muito mais.
         &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/products/enterprise-collaboration/">Saiba mais sobre o Wire Empresarial</a>]]></string>
-    <string name="feature_not_accessible_dialog_title">Recurso não acessível</string>
-    <string name="feature_not_accessible_dialog_description">Para usar o recurso de conferência, o administrador da equipe precisa atualizar o Wire</string>
+    <string name="conference_calling_unavailable_dialog_title">Recurso indisponível</string>
+    <string name="conference_calling_unavailable_dialog_description_personal_user">A opção de iniciar uma chamada em conferência está disponível apenas na versão paga do Wire.</string>
+    <string name="conference_calling_unavailable_dialog_description_team_member_user">Para iniciar uma chamada em conferência, sua equipe precisa ser atualizada para o plano Empresarial.</string>
 </resources>

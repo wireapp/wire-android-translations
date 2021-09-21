@@ -455,7 +455,7 @@
     <!-- Options -->
     <string name="pref_options_screen_title">Настройки</string>
     <string name="pref_options_vbr_title">Кодирование с переменным битрейтом</string>
-    <string name="pref_options_vbr_summary">Это значительно снижает потребление данных при аудиозвонках и улучшает работу при медленном соединении. Выключите, чтобы использовать кодирование с постоянным битрейтом.</string>
+    <string name="pref_options_vbr_summary">Это значительно снижает потребление данных при аудиозвонках и улучшает работу при медленном соединении. Выключите, чтобы использовать кодирование с постоянным битрейтом (CBR). Эта настройка влияет только на звонки 1:1; конференц-звонки всегда используют кодирование CBR.</string>
     <string name="pref_options_alerts_category_title">Оповещения</string>
     <string name="pref_options_calls_category_title">Звонки</string>
     <string name="pref_options_sounds_title">Звуки</string>
@@ -847,7 +847,7 @@
     <string name="no_conversation_in_list__message">Начните беседу или создайте группу.</string>
     <string name="default_deleted_username">По умолчанию</string>
     <string name="cursor__type_a_message">ВВЕДИТЕ СООБЩЕНИЕ</string>
-    <string name="cursor__ephemeral_message">ВРЕМЕННОЕ СООБЩЕНИЕ</string>
+    <string name="cursor__ephemeral_message">САМОУДАЛЯЮЩЕЕСЯ СООБЩЕНИЕ</string>
     <string name="tooltip_record">Записать видео</string>
     <string name="tooltip_camera">Добавить фото</string>
     <string name="tooltip_sketch">Рисовать изображение</string>
@@ -926,7 +926,7 @@
     <string name="usernames__take_over__choose">ВЫБРАТЬ СВОЙ</string>
     <string name="usernames__take_over__keep">ОСТАВИТЬ ЭТОТ</string>
     <string name="ephemeral_message__timeout__off">Отключено</string>
-    <string name="ephemeral_message__options_header">ВРЕМЕННЫЕ СООБЩЕНИЯ</string>
+    <string name="ephemeral_message__options_header">САМОУДАЛЯЮЩИЕСЯ СООБЩЕНИЯ</string>
     <string name="guests_option_on">Вкл.</string>
     <plurals name="unit_years">
         <item quantity="one">%1$s год</item>
@@ -1188,9 +1188,9 @@
     <string name="open_this_conversation_to_people_outside_your_team">Открыть эту беседу для сервисов и пользователей не из вашей команды.</string>
     <string name="allow_guests">Разрешить гостей и сервисы</string>
     <string name="guest_options_title">Гости и сервисы</string>
-    <string name="ephemeral_options_title">Временные сообщения</string>
+    <string name="ephemeral_options_title">Самоудаляющиеся сообщения</string>
     <string name="notifications_options_title">Уведомления</string>
-    <string name="ephemeral_explanation_text">Временные сообщения будут включены для всех участников этой беседы</string>
+    <string name="ephemeral_explanation_text">Самоудаляющиеся сообщения будут включены для всех участников этой беседы</string>
     <string name="notifications_explanation_text">Вы можете получать уведомления обо всем (включая аудио- и видеозвонки) или только когда вы были упомянуты.</string>
     <string name="show_all_participants">Показать все (%1$s)</string>
     <string name="participant_was_removed_from_team">%s был удален из команды</string>
@@ -1423,12 +1423,12 @@
     <string name="start_sso_notice">Указывайте учетные данные, только если уверены, что это страница авторизации вашей организации.</string>
     <!-- Legal Hold -->
     <string name="legal_hold_info_title">Юридические ограничения</string>
-    <string name="legal_hold_self_user_info_message">Для вашей учетной записи активированы юридические ограничения.\n\nВсе сообщения будут сохранены для последующего доступа, включая удаленные, отредактированные и просроченные.\n\nВаши собеседники будут уведомлены об этом.</string>
-    <string name="legal_hold_conversation_info_message">В этой беседе активированы юридические ограничения как минимум для одного участника.\n\nВсе сообщения будут сохранены для последующего доступа, включая удаленные, отредактированные и просроченные.</string>
+    <string name="legal_hold_self_user_info_message">Для вашей учетной записи активированы юридические ограничения.\n\nВсе сообщения будут сохранены для последующего доступа, включая удаленные, отредактированные и самоудаляющиеся.\n\nВаши собеседники будут уведомлены об этом.</string>
+    <string name="legal_hold_conversation_info_message">В этой беседе активированы юридические ограничения как минимум для одного участника.\n\nВсе сообщения будут сохранены для последующего доступа, включая удаленные, отредактированные и самоудаляющиеся.</string>
     <string name="legal_hold_info_list_title">Субъекты юридических ограничений</string>
     <string name="legal_hold_request_dialog_title">Запрошены юридические ограничения</string>
-    <string name="legal_hold_request_dialog_message_for_sso">Все будущие сообщения будут записываться устройством с отпечатком:/n%1$sСюда входят удаленные, отредактированные и просроченные сообщения во всех беседах.</string>
-    <string name="legal_hold_request_dialog_message">Все будущие сообщения будут записываться устройством с отпечатком:\n%1$sСюда входят удаленные, отредактированные и просроченные сообщения во всех беседах.\nВведите свой пароль для подтверждения.</string>
+    <string name="legal_hold_request_dialog_message_for_sso">Все будущие сообщения будут записываться устройством с отпечатком:/n%1$sСюда входят удаленные, отредактированные и самоудаляющиеся сообщения во всех беседах.</string>
+    <string name="legal_hold_request_dialog_message">Все будущие сообщения будут записываться устройством с отпечатком:\n%1$sСюда входят удаленные, отредактированные и самоудаляющиеся сообщения во всех беседах.\nВведите свой пароль для подтверждения.</string>
     <string name="legal_hold_request_dialog_positive_button_text">Принять</string>
     <string name="legal_hold_request_dialog_negative_button_text">Не сейчас</string>
     <string name="legal_hold_request_dialog_wrong_password_error">Неправильный пароль</string>
@@ -1456,10 +1456,10 @@
     <!-- File sharing feature config -->
     <string name="file_sharing_enabled_info_dialog_message">Обмен и получение файлов любого типа теперь включены</string>
     <string name="file_sharing_disabled_info_dialog_message">Обмен и получение файлов любого типа теперь отключены</string>
-    <string name="file_sharing_restriction_info_image">ПОЛУЧЕНИЕ ИЗОБРАЖЕНИЙ ОГРАНИЧЕНО</string>
-    <string name="file_sharing_restriction_info_video">ПОЛУЧЕНИЕ ВИДЕО ОГРАНИЧЕНО</string>
-    <string name="file_sharing_restriction_info_audio">ПОЛУЧЕНИЕ АУДИОФАЙЛОВ ОГРАНИЧЕНО</string>
-    <string name="file_sharing_restriction_info_file">ПОЛУЧЕНИЕ ФАЙЛОВ ОГРАНИЧЕНО</string>
+    <string name="file_sharing_restriction_info_image">ПОЛУЧЕНИЕ ИЗОБРАЖЕНИЙ ЗАПРЕЩЕНО</string>
+    <string name="file_sharing_restriction_info_video">ПОЛУЧЕНИЕ ВИДЕО ЗАПРЕЩЕНО</string>
+    <string name="file_sharing_restriction_info_audio">ПОЛУЧЕНИЕ АУДИОФАЙЛОВ ЗАПРЕЩЕНО</string>
+    <string name="file_sharing_restriction_info_file">ПОЛУЧЕНИЕ ФАЙЛОВ ЗАПРЕЩЕНО</string>
     <string name="file_sharing_restriction_info_generic">ОБМЕН ФАЙЛАМИ ОГРАНИЧЕН</string>
     <!-- Self Deleting Messages feature config -->
     <string name="self_deleting_messages_change_info_dialog_message_enabled">Отправка самоудаляющихся сообщений включена.</string>
@@ -1468,12 +1468,13 @@
     <!-- Conference Calling Restriction feature config -->
     <string name="conference_calling_restriction_dialog_title">Перейти на enterprise</string>
     <string name="conference_calling_restriction_dialog_description">В настоящее время ваша команда использует бесплатный тарифный план Basic. Перейдите на тарифный план Enterprise, чтобы получить доступ к таким возможностям, как конференц-связь и многим другим.
-    &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/pricing/">Узнайте больше о ценах в Wire</a>]]></string>
+    &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/pricing/">Узнайте больше о тарифах в Wire</a>]]></string>
     <string name="conference_calling_restriction_dialog_positive_button">ПЕРЕЙТИ СЕЙЧАС</string>
     <string name="conference_calling_restriction_dialog_negative_button">ОТМЕНА</string>
     <string name="upgraded_plan_dialog_title">Wire enterprise</string>
     <string name="upgraded_plan_dialog_description">Ваша команда была обновлена до Wire Enterprise, что позволяет вам получить доступ к таким возможностям, как конференц-связь и многим другим.
         &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/products/enterprise-collaboration/">Узнайте больше о Wire Enterprise</a>]]></string>
-    <string name="feature_not_accessible_dialog_title">Опция недоступна</string>
-    <string name="feature_not_accessible_dialog_description">Для использования опции конференц-связи администратору вашей команды необходимо обновить Wire</string>
+    <string name="conference_calling_unavailable_dialog_title">Возможность недоступна</string>
+    <string name="conference_calling_unavailable_dialog_description_personal_user">Возможность инициировать конференц-связь доступна только в платной версии Wire.</string>
+    <string name="conference_calling_unavailable_dialog_description_team_member_user">Чтобы использовать конференц-связь, вашей команде необходимо перейти на план Enterprise.</string>
 </resources>

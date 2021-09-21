@@ -435,7 +435,7 @@
     <!-- Options -->
     <string name="pref_options_screen_title">Optionen</string>
     <string name="pref_options_vbr_title">Variable Bitrate</string>
-    <string name="pref_options_vbr_summary">Anrufe benötigen weniger Datenvolumen und funktionieren besser in Netzen mit geringer Bandbreite. Deaktivieren um eine konstante Bitrate zu benutzen.</string>
+    <string name="pref_options_vbr_summary">Anrufe benötigen hierbei weniger Datenvolumen und funktionieren besser in Netzen mit geringer Bandbreite. Schalten Sie diese Option aus, um die Kodierung mit konstanter Bitrate (CBR) zu verwenden. Diese Einstellung wirkt sich nur auf Einzelgespräche aus; Telefonkonferenzen verwenden immer CBR-Kodierung.</string>
     <string name="pref_options_alerts_category_title">Benachrichtigungen</string>
     <string name="pref_options_calls_category_title">Anrufe</string>
     <string name="pref_options_sounds_title">Töne</string>
@@ -818,7 +818,7 @@ Gilt nicht für Gruppen.</string>
     <string name="no_conversation_in_list__message">Eine Unterhaltung beginnen oder eine Gruppe erstellen.</string>
     <string name="default_deleted_username">Default</string>
     <string name="cursor__type_a_message">EINE NACHRICHT SCHREIBEN</string>
-    <string name="cursor__ephemeral_message">TEMPORÄRE NACHRICHT</string>
+    <string name="cursor__ephemeral_message">SELBSTLÖSCHENDE NACHRICHT</string>
     <string name="tooltip_record">Video aufnehmen</string>
     <string name="tooltip_camera">Foto hinzufügen</string>
     <string name="tooltip_sketch">Sketch zeichnen</string>
@@ -895,7 +895,7 @@ Gilt nicht für Gruppen.</string>
     <string name="usernames__take_over__choose">WÄHLEN SIE IHREN EIGENEN</string>
     <string name="usernames__take_over__keep">DIESEN BEHALTEN</string>
     <string name="ephemeral_message__timeout__off">Aus</string>
-    <string name="ephemeral_message__options_header">TEMPORÄRE NACHRICHTEN</string>
+    <string name="ephemeral_message__options_header">SELBSTLÖSCHENDE NACHRICHTEN</string>
     <string name="guests_option_on">An</string>
     <plurals name="unit_years">
         <item quantity="one">%1$s Jahr</item>
@@ -1131,9 +1131,9 @@ Gilt nicht für Gruppen.</string>
     <string name="open_this_conversation_to_people_outside_your_team">Öffne diese Unterhaltung für Dienste und Personen außerhalb des Teams.</string>
     <string name="allow_guests">Gäste und Dienste zulassen</string>
     <string name="guest_options_title">Gäste und Dienste</string>
-    <string name="ephemeral_options_title">Temporäre Nachrichten</string>
+    <string name="ephemeral_options_title">Selbstlöschende Nachrichten</string>
     <string name="notifications_options_title">Benachrichtigungen</string>
-    <string name="ephemeral_explanation_text">Temporäre Nachrichten werden für alle Teilnehmer dieser Unterhaltung eingeschaltet</string>
+    <string name="ephemeral_explanation_text">Selbstlöschende Nachrichten werden für alle Teilnehmer dieser Unterhaltung eingeschaltet</string>
     <string name="notifications_explanation_text">Immer benachrichtigen (einschließlich Audio- und Videoanrufe) oder nur bei Erwähnungen.</string>
     <string name="show_all_participants">Alle anzeigen (%1$s)</string>
     <string name="participant_was_removed_from_team">%s wurde aus dem Team entfernt</string>
@@ -1367,13 +1367,13 @@ Gilt nicht für Gruppen.</string>
     <string name="start_sso_notice">Geben Sie Ihre Zugangsdaten nur dann an, wenn Sie sicher sind, dass dies das Login Ihrer Organisation ist.</string>
     <!-- Legal Hold -->
     <string name="legal_hold_info_title">Gesetzliche Aufbewahrung</string>
-    <string name="legal_hold_self_user_info_message">Die gesetzliche Aufbewahrung wurde für dieses Konto aktiviert.\n\nAlle Nachrichten werden für den künftigen Zugriff aufbewahrt, einschließlich gelöschter, bearbeiteter und temporärer Nachrichten.\n\nAlle Gesprächspartner werden über die Aufnahme in Kenntnis gesetzt.
+    <string name="legal_hold_self_user_info_message">Die gesetzliche Aufbewahrung wurde für dieses Konto aktiviert.\n\nAlle Nachrichten werden für den künftigen Zugriff aufbewahrt, einschließlich gelöschter, bearbeiteter und selbstlöschender Nachrichten.\n\nAlle Gesprächspartner werden über die Aufnahme in Kenntnis gesetzt.
     </string>
-    <string name="legal_hold_conversation_info_message">Die gesetzlichen Aufbewahrung wurde für mindestens eine Person dieser Unterhaltung aktiviert.\n\nAlle Nachrichten werden für den künftigen Zugriff aufbewahrt, einschließlich gelöschter, bearbeiteter und temporärer Nachrichten.</string>
+    <string name="legal_hold_conversation_info_message">Die gesetzlichen Aufbewahrung wurde für mindestens eine Person dieser Unterhaltung aktiviert.\n\nAlle Nachrichten werden für den künftigen Zugriff aufbewahrt, einschließlich gelöschter, bearbeiteter und selbstlöschender Nachrichten.</string>
     <string name="legal_hold_info_list_title">Personen, die der gesetzlichen Aufbewahrung unterliegen</string>
     <string name="legal_hold_request_dialog_title">Gesetzliche Aufbewahrung ersucht</string>
-    <string name="legal_hold_request_dialog_message_for_sso">Aufbewahrung aller künftigen Nachrichten vom Gerät mit Fingerabdruck:\n%1$sEinschließlich gelöschter, bearbeiteter und temporärer Nachrichten in allen Unterhaltungen.</string>
-    <string name="legal_hold_request_dialog_message">Aufbewahrung aller künftigen Nachrichten vom Gerät mit Fingerabdruck:\n%1$sEinschließlich gelöschter, bearbeiteter und temporärer Nachrichten in allen Unterhaltungen.\nGeben Sie zur Bestätigung Ihr Passwort ein.</string>
+    <string name="legal_hold_request_dialog_message_for_sso">Aufbewahrung aller künftigen Nachrichten vom Gerät mit Fingerabdruck:\n%1$sEinschließlich gelöschter, bearbeiteter und selbstlöschender Nachrichten in allen Unterhaltungen.</string>
+    <string name="legal_hold_request_dialog_message">Aufbewahrung aller künftigen Nachrichten vom Gerät mit Fingerabdruck:\n%1$sEinschließlich gelöschter, bearbeiteter und selbstlöschender Nachrichten in allen Unterhaltungen.\nGeben Sie zur Bestätigung Ihr Passwort ein.</string>
     <string name="legal_hold_request_dialog_positive_button_text">Annehmen</string>
     <string name="legal_hold_request_dialog_negative_button_text">Nicht jetzt</string>
     <string name="legal_hold_request_dialog_wrong_password_error">Falsches Passwort</string>
@@ -1401,24 +1401,25 @@ Gilt nicht für Gruppen.</string>
     <!-- File sharing feature config -->
     <string name="file_sharing_enabled_info_dialog_message">Das Teilen und Empfangen von Dateien jeder Art ist jetzt aktiviert</string>
     <string name="file_sharing_disabled_info_dialog_message">Das Teilen und Empfangen von Dateien jeder Art ist jetzt deaktiviert</string>
-    <string name="file_sharing_restriction_info_image">EMPFANG VON BILDERN EINGESCHRÄNKT</string>
-    <string name="file_sharing_restriction_info_video">EMPFANG VON VIDEOS EINGESCHRÄNKT</string>
-    <string name="file_sharing_restriction_info_audio">EMPFANG VON AUDIODATEIEN EINGESCHRÄNKT</string>
-    <string name="file_sharing_restriction_info_file">EMPFANG VON DATEIEN EINGESCHRÄNKT</string>
+    <string name="file_sharing_restriction_info_image">EMPFANG VON BILDERN IST VERBOTEN</string>
+    <string name="file_sharing_restriction_info_video">EMPFANG VON VIDEOS IST VERBOTEN</string>
+    <string name="file_sharing_restriction_info_audio">EMPFANG VON AUDIODATEIEN IST VERBOTEN</string>
+    <string name="file_sharing_restriction_info_file">EMPFANG VON DATEIEN IST VERBOTEN</string>
     <string name="file_sharing_restriction_info_generic">DATEIFREIGABE EINGESCHRÄNKT</string>
     <!-- Self Deleting Messages feature config -->
     <string name="self_deleting_messages_change_info_dialog_message_enabled">Sending of self deleting messages is enabled.</string>
     <string name="self_deleting_messages_change_info_dialog_message_enabled_enforced">Sending of self deleting messages is mandatory. The enforced timeout for deletion is %s seconds.</string>
     <string name="self_deleting_messages_change_info_dialog_message_disabled">Sending of self deleting messages is disabled.</string>
     <!-- Conference Calling Restriction feature config -->
-    <string name="conference_calling_restriction_dialog_title">Upgrade to enterprise</string>
-    <string name="conference_calling_restriction_dialog_description">Your team is currently on the free Basic plan. Upgrade to Enterprise for access to  features such as starting conferences and more.
-    &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/pricing/">Learn more about Wires pricing</a>]]></string>
+    <string name="conference_calling_restriction_dialog_title">Auf Enterprise upgraden</string>
+    <string name="conference_calling_restriction_dialog_description">Ihr Team nutzt derzeit das kostenlose Basis-Abo. Upgraden Sie auf Enterprise für den Zugriff auf weitere Funktionen wie das Starten von Telefonkonferenzen.
+    &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/pricing/">Erfahren Sie mehr über Wires Preise</a>]]></string>
     <string name="conference_calling_restriction_dialog_positive_button">JETZT UPGRADEN</string>
     <string name="conference_calling_restriction_dialog_negative_button">Abbrechen</string>
     <string name="upgraded_plan_dialog_title">Wire enterprise</string>
-    <string name="upgraded_plan_dialog_description">Your team was upgraded to Wire Enterprise, which gives you access to features such as conference calls and more.
-        &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/products/enterprise-collaboration/">Learn more about Wire Enterprise</a>]]></string>
-    <string name="feature_not_accessible_dialog_title">Feature not accessible</string>
-    <string name="feature_not_accessible_dialog_description">To use the conferencing feature your team admin needs to upgrade Wire</string>
+    <string name="upgraded_plan_dialog_description">Ihr Team nutzt jetzt Wire Enterprise. Dadurch haben Sie Zugriff auf Funktionen wie beispielsweise Telefonkonferenzen. 
+        &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/products/enterprise-collaboration/">Erfahren Sie mehr über Wire Enterprise</a>]]></string>
+    <string name="conference_calling_unavailable_dialog_title">Funktion nicht verfügbar</string>
+    <string name="conference_calling_unavailable_dialog_description_personal_user">Die Option, eine Telefonkonferenz zu starten, ist nur in der kostenpflichtigen Version verfügbar.</string>
+    <string name="conference_calling_unavailable_dialog_description_team_member_user">Um eine Telefonkonferenz zu starten, muss Ihr Team auf das Enterprise-Abo upgraden.</string>
 </resources>
