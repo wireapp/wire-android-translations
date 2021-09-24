@@ -381,6 +381,8 @@
     <string name="pref_account_conversations_category_title">歷史</string>
     <string name="pref_account_username_title">使用者名稱</string>
     <string name="pref_account_phone_title">手機</string>
+    <string name="pref_account_team_title">團隊</string>
+    <string name="pref_account_domain_title">Domain</string>
     <string name="pref_account_add_phone_title">新增手機號碼</string>
     <string name="pref_account_email_title">電子郵件</string>
     <string name="pref_account_add_email_title">新增電子郵件</string>

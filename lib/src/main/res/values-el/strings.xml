@@ -391,6 +391,8 @@
     <string name="pref_account_conversations_category_title">History</string>
     <string name="pref_account_username_title">Όνομα Χρήστη</string>
     <string name="pref_account_phone_title">Κινητό Τηλέφωνο</string>
+    <string name="pref_account_team_title">Ομάδα</string>
+    <string name="pref_account_domain_title">Domain</string>
     <string name="pref_account_add_phone_title">Προσθήκη αριθμού τηλεφώνου</string>
     <string name="pref_account_email_title">Email</string>
     <string name="pref_account_add_email_title">Προσθήκη email</string>

@@ -411,6 +411,8 @@
     <string name="pref_account_conversations_category_title">Historia</string>
     <string name="pref_account_username_title">Login</string>
     <string name="pref_account_phone_title">Numer telefonu</string>
+    <string name="pref_account_team_title">Drużyna</string>
+    <string name="pref_account_domain_title">Domain</string>
     <string name="pref_account_add_phone_title">Dodaj numer telefonu</string>
     <string name="pref_account_email_title">Adres e-mail</string>
     <string name="pref_account_add_email_title">Dodaj adres e-mail</string>

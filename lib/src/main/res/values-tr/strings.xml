@@ -391,6 +391,8 @@
     <string name="pref_account_conversations_category_title">Geçmiş</string>
     <string name="pref_account_username_title">Kullanıcı Adı</string>
     <string name="pref_account_phone_title">Telefon</string>
+    <string name="pref_account_team_title">Takım</string>
+    <string name="pref_account_domain_title">Domain</string>
     <string name="pref_account_add_phone_title">Telefon numarası ekleyin</string>
     <string name="pref_account_email_title">E-posta</string>
     <string name="pref_account_add_email_title">E-posta ekle</string>

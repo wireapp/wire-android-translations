@@ -381,6 +381,8 @@
     <string name="pref_account_conversations_category_title">履歴</string>
     <string name="pref_account_username_title">ユーザーネーム</string>
     <string name="pref_account_phone_title">携帯電話</string>
+    <string name="pref_account_team_title">チーム</string>
+    <string name="pref_account_domain_title">Domain</string>
     <string name="pref_account_add_phone_title">電話番号を追加する</string>
     <string name="pref_account_email_title">メール</string>
     <string name="pref_account_add_email_title">メールを追加</string>

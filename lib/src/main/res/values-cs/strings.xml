@@ -411,6 +411,8 @@
     <string name="pref_account_conversations_category_title">Historie</string>
     <string name="pref_account_username_title">Uživatelské jméno</string>
     <string name="pref_account_phone_title">Telefon</string>
+    <string name="pref_account_team_title">Team</string>
+    <string name="pref_account_domain_title">Domain</string>
     <string name="pref_account_add_phone_title">Přidat telefonní číslo</string>
     <string name="pref_account_email_title">Email</string>
     <string name="pref_account_add_email_title">Přidat e-mail</string>

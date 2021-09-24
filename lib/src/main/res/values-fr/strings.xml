@@ -391,6 +391,8 @@
     <string name="pref_account_conversations_category_title">Historique</string>
     <string name="pref_account_username_title">Nom d\'utilisateur</string>
     <string name="pref_account_phone_title">Téléphone</string>
+    <string name="pref_account_team_title">Équipe</string>
+    <string name="pref_account_domain_title">Domain</string>
     <string name="pref_account_add_phone_title">Ajouter un numéro de téléphone</string>
     <string name="pref_account_email_title">E-mail</string>
     <string name="pref_account_add_email_title">Ajouter une adresse e-mail</string>
