@@ -1409,16 +1409,16 @@ Gilt nicht für Gruppen.</string>
     <string name="file_sharing_restriction_info_file">EMPFANG VON DATEIEN IST VERBOTEN</string>
     <string name="file_sharing_restriction_info_generic">DATEIFREIGABE EINGESCHRÄNKT</string>
     <!-- Self Deleting Messages feature config -->
-    <string name="self_deleting_messages_change_info_dialog_message_enabled">Sending of self deleting messages is enabled.</string>
-    <string name="self_deleting_messages_change_info_dialog_message_enabled_enforced">Sending of self deleting messages is mandatory. The enforced timeout for deletion is %s seconds.</string>
-    <string name="self_deleting_messages_change_info_dialog_message_disabled">Sending of self deleting messages is disabled.</string>
+    <string name="self_deleting_messages_change_info_dialog_message_enabled">Das Senden von selbstlöschenden Nachrichten ist aktiviert.</string>
+    <string name="self_deleting_messages_change_info_dialog_message_enabled_enforced">Das Senden von selbstlöschenden Nachrichten ist verbindlich. Die Nachrichten werden nach %s Sekunden gelöscht.</string>
+    <string name="self_deleting_messages_change_info_dialog_message_disabled">Das Senden von selbstlöschenden Nachrichten ist deaktiviert.</string>
     <!-- Conference Calling Restriction feature config -->
     <string name="conference_calling_restriction_dialog_title">Auf Enterprise upgraden</string>
     <string name="conference_calling_restriction_dialog_description">Ihr Team nutzt derzeit das kostenlose Basis-Abo. Upgraden Sie auf Enterprise für den Zugriff auf weitere Funktionen wie das Starten von Telefonkonferenzen.
     &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/pricing/">Erfahren Sie mehr über Wires Preise</a>]]></string>
     <string name="conference_calling_restriction_dialog_positive_button">JETZT UPGRADEN</string>
     <string name="conference_calling_restriction_dialog_negative_button">Abbrechen</string>
-    <string name="upgraded_plan_dialog_title">Wire enterprise</string>
+    <string name="upgraded_plan_dialog_title">Wire Enterprise</string>
     <string name="upgraded_plan_dialog_description">Ihr Team nutzt jetzt Wire Enterprise. Dadurch haben Sie Zugriff auf Funktionen wie beispielsweise Telefonkonferenzen. 
         &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/products/enterprise-collaboration/">Erfahren Sie mehr über Wire Enterprise</a>]]></string>
     <string name="conference_calling_unavailable_dialog_title">Funktion nicht verfügbar</string>

@@ -1415,7 +1415,7 @@
     &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/pricing/">Saiba mais sobre os preços do Wire</a>]]></string>
     <string name="conference_calling_restriction_dialog_positive_button">ATUALIZAR AGORA</string>
     <string name="conference_calling_restriction_dialog_negative_button">CANCELAR</string>
-    <string name="upgraded_plan_dialog_title">Wire empresarial</string>
+    <string name="upgraded_plan_dialog_title">Wire Enterprise</string>
     <string name="upgraded_plan_dialog_description">Sua equipe foi atualizada para o Wire Empresarial, que oferece acesso a recursos como chamadas em conferência e muito mais.
         &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/products/enterprise-collaboration/">Saiba mais sobre o Wire Empresarial</a>]]></string>
     <string name="conference_calling_unavailable_dialog_title">Recurso indisponível</string>

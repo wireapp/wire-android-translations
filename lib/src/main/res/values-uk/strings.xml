@@ -1473,7 +1473,7 @@
     &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/pricing/">Learn more about Wire\'s pricing</a>]]></string>
     <string name="conference_calling_restriction_dialog_positive_button">ОНОВИТИ ЗАРАЗ</string>
     <string name="conference_calling_restriction_dialog_negative_button">СКАСУВАТИ</string>
-    <string name="upgraded_plan_dialog_title">Ентерпрайз-версія Wire</string>
+    <string name="upgraded_plan_dialog_title">Wire Enterprise</string>
     <string name="upgraded_plan_dialog_description">Вашу команду було оновлено до ентерпрайз-версії Wire, яка надає вам доступ до таких функцій, як відео-конференції, та багатьох інших.
         &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/products/enterprise-collaboration/">Дізнайтеся більше про ентерпрайз-версію Wire</a>]]></string>
     <string name="conference_calling_unavailable_dialog_title">Feature unavailable</string>
