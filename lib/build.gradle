@@ -36,7 +36,7 @@ publishing {
     publications {
 
         repositories.maven {
-            url System.getenv("NEXUS_REPOSITORY_HOST") + '/nexus/content/repositories/releases/'
+            url System.getenv("NEXUS_REPOSITORY_HOST") + '/content/repositories/releases/'
             credentials {
                 username System.getenv("NEXUS_REPOSITORY_USERNAME")
                 password System.getenv("NEXUS_REPOSITORY_PASSWORD")
