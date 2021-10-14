@@ -79,8 +79,8 @@
     <string name="people_picker__search_result_conversations_header_title">グループ</string>
     <string name="people_picker__search_result_team_conversations_header_title">%1$s グループ</string>
     <string name="people_picker__search_result_connections_searched_header_title">連絡先</string>
-    <string name="people_picker__search_result_others_header_title">Connect with Wire</string>
-    <string name="people_picker__search_result_others_header_federated">Connect with %1$s</string>
+    <string name="people_picker__search_result_others_header_title">Wireと接続</string>
+    <string name="people_picker__search_result_others_header_federated">%1$s と接続</string>
     <string name="people_picker__search_result__expander_title">全てを表示 %1$s ↓</string>
     <string name="people_picker__search_people">友人</string>
     <string name="people_picker__search_services">サービス</string>
@@ -146,10 +146,10 @@
     <string name="content__system__someone_left">誰かが退出しました</string>
     <string name="content__system__other_was_removed">%1$s は削除されました</string>
     <string name="content__system__someone_was_removed">誰かが削除されました</string>
-    <string name="content__system__legalhold_conflict__you_were_removed">[[You]] were removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
-    <string name="content__system__legalhold_conflict__someone_was_removed">Someone was removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
-    <string name="content__system__legalhold_conflict__other_was_removed">%1$s was removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
-    <string name="content__system__legalhold_conflict__others_were_removed">%1$s were removed from this conversation because legal hold has been activated. _LEARN MORE_</string>
+    <string name="content__system__legalhold_conflict__you_were_removed">法的保留が有効化されたため、　[[You]] はこの会話から削除されました。_詳細_</string>
+    <string name="content__system__legalhold_conflict__someone_was_removed">法的保留が有効化されたため、　誰かがこの会話から削除されました。_詳細_</string>
+    <string name="content__system__legalhold_conflict__other_was_removed">法的保留が有効化されたため、　%1$s はこの会話から削除されました。_詳細_</string>
+    <string name="content__system__legalhold_conflict__others_were_removed">法的保留が有効化されたため、　%1$s 達はこの会話から削除されました。_詳細_</string>
     <!-- Create conversation -->
     <string name="content__system__you_started_conversation">あなたが会話を開始しました。</string>
     <string name="content__system__other_started_conversation">%1$s が会話を開始しました。</string>
@@ -184,7 +184,7 @@
     <string name="content__otr__unverified_device__message">[[あなた]] _%1$s のデバイス_ の 1 つを確認していません</string>
     <string name="content__otr__your_unverified_device__message">[[あなた]] _あなたのデバイス_ の 1 つを確認していません</string>
     <string name="content__otr__new_member__message">新しい人が参加しました。_デバイスを検証する_</string>
-    <string name="content__otr__legalhold_enabled__message">This conversation is under legal hold. _LEARN MORE_</string>
+    <string name="content__otr__legalhold_enabled__message">この会話は法的保留の下にあります。 _詳細_</string>
     <string name="content__otr__legalhold_disabled__message">この会話は法的所有権による制限から解除されました。</string>
     <!-- File transfer -->
     <string name="content__file__status__default">%1$s</string>
@@ -256,9 +256,9 @@
     <string name="incoming__controls__ongoing__flip">カメラ切替</string>
     <string name="ongoing__poor_connection_message">接続不良のためビデオが停止しました</string>
     <string name="calling__self_preview_unavailable_long">カメラは利用できません</string>
-    <string name="incoming__controls__ongoing__microphone">MICROPHONE</string>
+    <string name="incoming__controls__ongoing__microphone">マイク</string>
     <string name="incoming__controls__ongoing__camera">カメラ</string>
-    <string name="incoming__controls__ongoing__flip_camera">FLIP CAMERA</string>
+    <string name="incoming__controls__ongoing__flip_camera">カメラを反転</string>
     <string name="calling__header__joining">接続中...</string>
     <string name="calling__header__outgoing_subtitle">呼び出し中...</string>
     <string name="calling__header__outgoing_video_subtitle">呼び出し中...</string>
@@ -288,7 +288,7 @@
     <string name="group_calling_confirm">通話</string>
     <string name="calling_self">%s (あなた)</string>
     <string name="calling_no_active_video_speakers">アクティブなビデオスピーカーがありません...</string>
-    <string name="calling_no_active_speakers">No active speakers...</string>
+    <string name="calling_no_active_speakers">有効なスピーカーがありません...</string>
     <string name="calling_toggle_all">全て</string>
     <string name="calling_toggle_speakers">スピーカー</string>
     <string name="calling_double_tap_enter_fullscreen_message">タイルをダブルタップして全画面表示にする</string>
@@ -327,7 +327,7 @@
         <item quantity="other">まだメッセージを送信しますか?</item>
     </plurals>
     <string name="conversation__legal_hold_confirmation__negative_action">法的所有権とはなんですか？</string>
-    <string name="conversation__legal_hold_confirmation__neutral_action">Verify devices&#8230;</string>
+    <string name="conversation__legal_hold_confirmation__neutral_action">デバイスを認証...</string>
     <string name="conversation__legal_hold_confirmation__positive_action">このまま送信</string>
     <!-- Picture selection confirmation -->
     <string name="confirmation_menu__confirm_done">OK</string>
@@ -382,7 +382,7 @@
     <string name="pref_account_username_title">ユーザーネーム</string>
     <string name="pref_account_phone_title">携帯電話</string>
     <string name="pref_account_team_title">チーム</string>
-    <string name="pref_account_domain_title">Domain</string>
+    <string name="pref_account_domain_title">ドメイン</string>
     <string name="pref_account_add_phone_title">電話番号を追加する</string>
     <string name="pref_account_email_title">メール</string>
     <string name="pref_account_add_email_title">メールを追加</string>
@@ -427,7 +427,7 @@
     <!-- Options -->
     <string name="pref_options_screen_title">オプション</string>
     <string name="pref_options_vbr_title">可変ビットレートエンコーディング</string>
-    <string name="pref_options_vbr_summary">This makes audio calls use less data and work better on slower networks. Turn off to use constant bitrate encoding (CBR). This setting only affects 1:1 calls; conference calls always use CBR encoding.</string>
+    <string name="pref_options_vbr_summary">これによって、音声通話のデータ使用量が少なくなり、低速なネットワークでより良く動作します。オフにすると、コンスタントビットレートエンコーディング(CBR)が使用できます。この設定は1対1の通話にのみ影響し、会議通話では常にCBRエンコーディングが使われます。</string>
     <string name="pref_options_alerts_category_title">アラート</string>
     <string name="pref_options_calls_category_title">通話</string>
     <string name="pref_options_sounds_title">サウンド</string>
@@ -655,7 +655,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="sharing__user_not_logged_in__dialog__title">ログインしてください</string>
     <string name="sharing__user_not_logged_in__dialog__message">Wire を開き、ログインして共有してください。</string>
     <string name="sharing__user_not_logged_in__dialog__confirm">OK</string>
-    <string name="sharing__file_sharing_prohibited__dialog__title">File sharing restrictions</string>
+    <string name="sharing__file_sharing_prohibited__dialog__title">ファイル共有制限</string>
     <string name="sharing__file_sharing_prohibited__dialog__message">この機能が無効になっているため、このファイルを共有できません。</string>
     <string name="sharing__file_sharing_prohibited__dialog__confirm">OK</string>
     <!-- Sync errors -->
@@ -806,7 +806,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="no_conversation_in_list__message">会話を開始またはグループを作成します。</string>
     <string name="default_deleted_username">デフォルト</string>
     <string name="cursor__type_a_message">メッセージを入力します</string>
-    <string name="cursor__ephemeral_message">SELF-DELETING MESSAGE</string>
+    <string name="cursor__ephemeral_message">メッセージの自己削除</string>
     <string name="tooltip_record">ビデオを記録</string>
     <string name="tooltip_camera">写真を追加</string>
     <string name="tooltip_sketch">画像を描く</string>
@@ -882,7 +882,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="usernames__take_over__choose">自分のものを選ぶ</string>
     <string name="usernames__take_over__keep">これにする</string>
     <string name="ephemeral_message__timeout__off">オフ</string>
-    <string name="ephemeral_message__options_header">SELF-DELETING MESSAGES</string>
+    <string name="ephemeral_message__options_header">メッセージの自己削除</string>
     <string name="guests_option_on">オン</string>
     <plurals name="unit_years">
         <item quantity="other">%1$s 年</item>
@@ -904,7 +904,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     </plurals>
     <string name="ephemeral_message_footer_multiple_units">残り %1$s と %2$s</string>
     <string name="ephemeral_message_footer_single_unit">残り %1$s</string>
-    <string name="collection_header_images">IMAGES</string>
+    <string name="collection_header_images">画像</string>
     <string name="collection_header_files">ファイル</string>
     <string name="collection_header_links">リンク</string>
     <string name="collection_header_today">今日</string>
@@ -968,7 +968,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="participant_tab_guest_indicator_label">ゲスト</string>
     <string name="participant_tab_external_indicator_label">外部</string>
     <string name="participant_tab_group_admin_indicator_label">グループ管理者</string>
-    <string name="federated_indicator">FEDERATED</string>
+    <string name="federated_indicator">連合</string>
     <string name="availability_none">なし</string>
     <string name="availability_available">利用できます</string>
     <string name="availability_away">不在</string>
@@ -1063,8 +1063,8 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="loading_services">サービスを読み込んでいます&#8230;</string>
     <string name="empty_services_list">あなたのワークフローを改善するサービスです。サービスを有効にするには、管理者に問い合わせてください。</string>
     <string name="empty_services_list_admin">サービスはあなたのワークフローを改善に役立ちます。</string>
-    <string name="empty_services_content_description">No services found</string>
-    <string name="empty_search_content_description">No users found</string>
+    <string name="empty_services_content_description">サービスが見つかりません</string>
+    <string name="empty_search_content_description">ユーザーが見つかりません</string>
     <string name="create_group_conversation">グループを作成します</string>
     <string name="create_guest_room_conversation">ゲストルームを作成する</string>
     <string name="manage_services">サービスを管理</string>
@@ -1106,9 +1106,9 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="open_this_conversation_to_people_outside_your_team">サービスとチーム外の人々にこの会話を公開します。</string>
     <string name="allow_guests">ゲストとサービスを許可します</string>
     <string name="guest_options_title">ゲストとサービス</string>
-    <string name="ephemeral_options_title">Self-deleting messages</string>
+    <string name="ephemeral_options_title">メッセージの自己削除</string>
     <string name="notifications_options_title">通知センター</string>
-    <string name="ephemeral_explanation_text">Self-deleting messages will be turned on for all the participants in this conversation</string>
+    <string name="ephemeral_explanation_text">この会話のすべての参加者は、メッセージの自己削除が有効になります</string>
     <string name="notifications_explanation_text">あなたは、すべて（オーディオとビデオ通話を含みます）または、メンションされた時のみに、通知をすることができます。</string>
     <string name="show_all_participants">全てを表示 (%1$s)</string>
     <string name="participant_was_removed_from_team">%s はチームから削除されました</string>
@@ -1199,7 +1199,7 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="add_services_button_text">サービスを管理</string>
     <string name="empty_search_button_text">もっと知る</string>
     <string name="empty_search_same_domain_text">Wireで名前または@usernameで人を見つけます</string>
-    <string name="empty_search_other_domains_text">Find people from another domain by @username@domainname</string>
+    <string name="empty_search_other_domains_text">\@username@domainame の他ドメインからユーザーを検索</string>
     <string name="wire_notification_name">Wire 通知</string>
     <string name="wire_ping_name">Wire Ping</string>
     <string name="reply_self_name">あなた</string>
@@ -1340,12 +1340,13 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="start_sso_notice">あなたの組織へのログインであると確信できる場合に限り、認証情報を提供してください。</string>
     <!-- Legal Hold -->
     <string name="legal_hold_info_title">法的所有権</string>
-    <string name="legal_hold_self_user_info_message">Legal Hold has been activated for your account.\n\nAll Messages will be preserved for future access, including deleted, edited, and self-deleting messages.\n\nYour conversation partners will be aware of the recording.</string>
-    <string name="legal_hold_conversation_info_message">Legal Hold has been activated for at least one person in this conversation.\n\nAll Messages will be preserved for future access, including deleted, edited, and self-deleting messages.</string>
+    <string name="legal_hold_self_user_info_message">あなたのアカウントの法的保留が開始されました。\n\n削除されたメッセージ、編集されたメッセージ、自己削除メッセージなど、すべてのメッセージは将来のアクセスのために保存されます。\n\n会話の相手へ録音されることを知らせてください。</string>
+    <string name="legal_hold_conversation_info_message">この会話で少なくとも一人の人のために法的保留が有効になっています。\n\nすべてのメッセージは、削除、編集、および自己削除メッセージを含む将来のアクセスのために保存されます。</string>
     <string name="legal_hold_info_list_title">法的所有権の対象</string>
     <string name="legal_hold_request_dialog_title">要求された法的所有権</string>
-    <string name="legal_hold_request_dialog_message_for_sso">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and self-deleting messages in all conversations.</string>
-    <string name="legal_hold_request_dialog_message">All future messages will be recorded by the device with fingerprint:\n%1$sThis includes deleted, edited and self-deleting messages in all conversations.\nEnter your password to confirm.</string>
+    <string name="legal_hold_request_dialog_message_for_sso">以下のフィンガープリントを持つデバイスによって、以後すべてのメッセージが記録されます:¥n%1$s¥n
+これは全会話の削除、編集、自己削除されたメッセージを含みます。</string>
+    <string name="legal_hold_request_dialog_message">以下のフィンガープリントを持つデバイスによって今後すべてのメッセージが記録されます:\n%1$s\nこれは全会話の削除、編集、自己削除されたメッセージを含みます。\n\n確認のため、パスワードを入力してください。</string>
     <string name="legal_hold_request_dialog_positive_button_text">承諾</string>
     <string name="legal_hold_request_dialog_negative_button_text">後で</string>
     <string name="legal_hold_request_dialog_wrong_password_error">パスワードが間違っています</string>
@@ -1354,39 +1355,39 @@ Pliral Form; %1$d 件のメッセージを受信しました</item>
     <string name="legal_hold_deactivated_dialog_title">法的所有権が解除されました</string>
     <string name="legal_hold_deactivated_dialog_message">以降のメッセージは記録されません。</string>
     <string name="legal_hold_activated_dialog_title">法的所有権が有効です</string>
-    <string name="legal_hold_participant_missing_consent_alert_title">Guests cannot be added</string>
-    <string name="legal_hold_participant_missing_consent_alert_message">Due to legal hold, only team members can be added to this conversation.</string>
+    <string name="legal_hold_participant_missing_consent_alert_title">ゲストを追加できません</string>
+    <string name="legal_hold_participant_missing_consent_alert_message">法的保留のため、チームメンバーのみがこの会話に参加可能です</string>
     <string name="legal_hold_participant_missing_consent_alert_negative_button">もっと詳しく知る</string>
-    <string name="legal_hold_user_blocked_message">This user is blocked due to legal hold. _LEARN MORE_</string>
-    <string name="legal_hold_cannot_connect_alert_title">Cannot connect to this user</string>
-    <string name="legal_hold_cannot_connect_alert_message">You cannot connect to this user due to legal hold.</string>
+    <string name="legal_hold_user_blocked_message">このユーザーは法的保留のためブロックされています。 _詳細_</string>
+    <string name="legal_hold_cannot_connect_alert_title">このユーザーに接続できません。</string>
+    <string name="legal_hold_cannot_connect_alert_message">法的保留のため、このユーザーに接続できません。</string>
     <string name="legal_hold_cannot_connect_alert_negative_button">もっと詳しく知る</string>
     <!-- Join Conversation via Deep Link -->
-    <string name="join_conversation_confirmation_message">You have been invited to a conversation:\n%s</string>
+    <string name="join_conversation_confirmation_message">会話に招待されました*¥n%s</string>
     <string name="join_conversation_confirmation_join_button_text">参加する</string>
     <string name="join_conversation_confirmation_cancel_button_text">キャンセル</string>
-    <string name="join_conversation_conversation_join_error_title">You could not join the conversation</string>
-    <string name="join_conversation_invalid_link_error_message">The conversation link is invalid.</string>
-    <string name="join_conversation_member_limit_reached_error_message">The conversation is full.</string>
+    <string name="join_conversation_conversation_join_error_title">会話に参加できませんでした。</string>
+    <string name="join_conversation_invalid_link_error_message">会話へのリンクが無効です。</string>
+    <string name="join_conversation_member_limit_reached_error_message">この会話は満員です。</string>
     <!-- Feature Config Changes -->
-    <string name="feature_config_changed_info_dialog_title">There has been a change in Wire</string>
+    <string name="feature_config_changed_info_dialog_title">Wireに変更があります。</string>
     <!-- File sharing feature config -->
-    <string name="file_sharing_enabled_info_dialog_message">Sharing and receiving files of any type is now enabled.</string>
-    <string name="file_sharing_disabled_info_dialog_message">Sharing and receiving files of any type is now disabled.</string>
-    <string name="file_sharing_restriction_info_image">RECEIVING IMAGES IS PROHIBITED</string>
-    <string name="file_sharing_restriction_info_video">RECEIVING VIDEOS IS PROHIBITED</string>
-    <string name="file_sharing_restriction_info_audio">RECEIVING AUDIO FILES IS PROHIBITED</string>
-    <string name="file_sharing_restriction_info_file">RECEIVING FILES IS PROHIBITED</string>
-    <string name="file_sharing_restriction_info_generic">FILE SHARING RESTRICTED</string>
+    <string name="file_sharing_enabled_info_dialog_message">任意の種類のファイル送受信が有効化されました。</string>
+    <string name="file_sharing_disabled_info_dialog_message">任意の種類のファイル送受信が無効化されました。</string>
+    <string name="file_sharing_restriction_info_image">画像の受信は禁止されています。</string>
+    <string name="file_sharing_restriction_info_video">動画の受信は禁止されています。</string>
+    <string name="file_sharing_restriction_info_audio">音声ファイルの受信は禁止されています。</string>
+    <string name="file_sharing_restriction_info_file">ファイルの受信は禁止されています。</string>
+    <string name="file_sharing_restriction_info_generic">ファイル共有は制限されています。</string>
     <!-- Self Deleting Messages feature config -->
-    <string name="self_deleting_messages_change_info_dialog_message_enabled">Sending of self deleting messages is enabled.</string>
-    <string name="self_deleting_messages_change_info_dialog_message_enabled_enforced">Sending of self deleting messages is mandatory. The enforced timeout for deletion is %s seconds.</string>
-    <string name="self_deleting_messages_change_info_dialog_message_disabled">Sending of self deleting messages is disabled.</string>
+    <string name="self_deleting_messages_change_info_dialog_message_enabled">自己削除メッセージの送信が有効です。</string>
+    <string name="self_deleting_messages_change_info_dialog_message_enabled_enforced">自己削除メッセージの送信は必須です。削除までの強制タイムアウト時間は %s 秒です。</string>
+    <string name="self_deleting_messages_change_info_dialog_message_disabled">自己削除メッセージの送信は無効です。</string>
     <!-- Conference Calling Restriction feature config -->
-    <string name="conference_calling_restriction_dialog_title">Upgrade to Enterprise</string>
-    <string name="conference_calling_restriction_dialog_description">Your team is currently on the free Basic plan. Upgrade to Enterprise for access to features such as starting conferences and more.
-    &lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/pricing/">Learn more about Wire\'s pricing</a>]]></string>
-    <string name="conference_calling_restriction_dialog_positive_button">UPGRADE NOW</string>
+    <string name="conference_calling_restriction_dialog_title">Enterprizeにアップグレード</string>
+    <string name="conference_calling_restriction_dialog_description">あなたのチームは無料のBasicプランを使用しています。Enterprizeにアップグレードすると、会議を始めるなどの機能にアクセスできるようになります。
+&lt;br /&gt; <![CDATA[ <a href="https://wire.com/en/pricing/">Wireの価格についてもっと知る</a>]]></string>
+    <string name="conference_calling_restriction_dialog_positive_button">今すぐアップグレード</string>
     <string name="conference_calling_restriction_dialog_negative_button">キャンセル</string>
     <string name="upgraded_plan_dialog_title">Wire Enterprise</string>
     <string name="upgraded_plan_dialog_description">Your team was upgraded to Wire Enterprise, which gives you access to features such as conference calls and more.
